@@ -1,170 +1,199 @@
 import numpy as np
 import pandas as pd
-from SPARQLWrapper import SPARQLWrapper, JSON
 from mlxtend.preprocessing import TransactionEncoder
+from SPARQLWrapper import SPARQLWrapper, JSON
 
-def query(classId):
-  sparql = SPARQLWrapper("http://localhost:3030/memory/sparql")
 
-  sparql.setQuery("""
-  PREFIX wd: <http://www.wikidata.org/entity/>
-  PREFIX wdt: <http://www.wikidata.org/prop/direct/>
-  SELECT ?CS (COUNT(?prop) AS ?total) {
-    
-    SELECT DISTINCT ?CS ?prop
-      WHERE {
-      ?CS wdt:P31 wd:""" + classId + """ .
-      ?CS ?prop ?value .
-  } 
+def query_entity(sparql_endpoint, prop_entity_pairs, sort_order='', limit=20):
+    sparql = SPARQLWrapper(sparql_endpoint)
+    conditions = ' .\n'.join([f'?entity wdt:{prop} wd:{entity} ' for prop, entity in prop_entity_pairs])
+    query = f"""
+      PREFIX wd: <http://www.wikidata.org/entity/>
+      PREFIX wdt: <http://www.wikidata.org/prop/direct/>
+      SELECT ?entity (COUNT(?property) AS ?total) {{
 
-  } GROUP BY ?CS
-  ORDER BY DESC(?total) 
-  """)
-  sparql.setReturnFormat(JSON)
-  results_query = sparql.query().convert()
+      SELECT DISTINCT ?entity ?property
+      WHERE {{
+      {conditions}
+      ?entity ?property ?value .
+      }} 
 
-  queryRes = []
-  for results in results_query["results"]["bindings"]:
-    entity = str(results["CS"]["value"]).split('/')
-    queryRes.append(entity[-1])
-  
-  return queryRes
-
-def richPoor(queryRes, div, richPortion, poorPortion):
-  divLen = len(queryRes)//div
-
-  rich = queryRes[divLen*(richPortion-1):divLen*(richPortion)]
-
-  if poorPortion == div:
-    poor = queryRes[divLen*(poorPortion-1):]
-  else:
-    poor = queryRes[divLen*(poorPortion-1):divLen*(richPortion)]
-
-  return rich, poor
-
-def properties(rich, poor):
-  richDb = []
-  richAndpoorDb = []
-
-  for i in range(len(rich)):
-    query_string = """
-    PREFIX wd: <https://www.wikidata.org/wiki/Special:EntityData/>
-    PREFIX wikibase: <http://wikiba.se/ontology#>
-    SELECT DISTINCT ?OS ?prop {
-    VALUES ?OS {wd:""" + rich[i] + """}
-    ?OS ?prop ?value .
-    }
+      }} GROUP BY ?entity
+      ORDER BY {sort_order}(?total) 
+      LIMIT {limit}
     """
-
-    sparql.setQuery(query_string)
+    sparql.setQuery(query)
     sparql.setReturnFormat(JSON)
-    results_entity = sparql.query().convert()
-    propLabel = []
-    for results in results_entity["results"]["bindings"]:
-      propLabel.append(results["prop"]["value"])
-    richDb.append(propLabel)
-    richAndpoorDb.append(propLabel)
+    query_result = sparql.query().convert()
 
-  poorDb = []
+    entity_ids = []
+    for results in query_result["results"]["bindings"]:
+        entity = str(results["entity"]["value"]).split('/')
+        entity_ids.append(entity[-1])
 
-  for i in range(len(rich)):
-    query_string = """
-    PREFIX wd: <https://www.wikidata.org/wiki/Special:EntityData/>
-    PREFIX wikibase: <http://wikiba.se/ontology#>
-    SELECT DISTINCT ?OS ?prop {
-    VALUES ?OS {wd:""" + poor[i] + """}
-    ?OS ?prop ?value .
-    }
-    """
-    sparql.setQuery(query_string)
-    sparql.setReturnFormat(JSON)
-    results_entity = sparql.query().convert()
-    propLabel = []
-    for results in results_entity["results"]["bindings"]:
-      propLabel.append(results["prop"]["value"])
-    
-    poorDb.append(propLabel)
-    richAndpoorDb.append(propLabel)
+    return entity_ids
 
-  return richAndpoorDb
 
-def propertyLabel(rich, richPoorDf):
-  wikidata = SPARQLWrapper("https://query.wikidata.org/sparql")
+def get_property_labels_two_lists(entity_ids_1, entity_ids_2, sparql):
+    entity_1_db = []
+    entity_merge_db = []
+    entity_2_db = []
 
-  for i in range(len(richAndPoordb)):
-    if(i<len(rich)):
-      richAndPoordb[i].append('rich')
-    if(i>=len(rich)):
-      richAndPoordb[i].append('poor')
-  
-  te = TransactionEncoder()
-  te_ary = te.fit(richAndpoorDb).transform(richAndpoorDb)
-  df_richAndpoor = pd.DataFrame(te_ary, columns=te.columns_)
-  
-  richAndpoor_prop_list = df_richAndpoor.columns.tolist()
-  richAndpoor_prop_list = richAndpoor_prop_list[:-2]
+    for entity_id in entity_ids_1:
+        query_string = f"""
+          PREFIX wd: <https://www.wikidata.org/wiki/Special:EntityData/>
+          PREFIX wikibase: <http://wikiba.se/ontology#>
+          SELECT DISTINCT ?OS ?prop {{
+          VALUES ?OS {{wd:{entity_id}}}
+          ?OS ?prop ?value .
+          }}
+          """
+        sparql.setQuery(query_string)
+        sparql.setReturnFormat(JSON)
+        results_entity = sparql.query().convert()
 
-  richAndpoorPropLabel = []
-  richAndPoorColumnCheck = []
+        prop_label = [results["prop"]["value"] for results in results_entity["results"]["bindings"]]
 
-  for i in tqdm(range(len(richAndpoor_prop_list))):
-    query_string = """
-    SELECT DISTINCT ?propLabel {
-      VALUES ?p {wdt:""" + richAndpoor_prop_list[i] + """}
-      SERVICE wikibase:label { bd:serviceParam wikibase:language "en". } 
-      ?prop wikibase:directClaim ?p .
-    }
-    """
+        entity_1_db.append(prop_label)
+        entity_merge_db.append(prop_label)
 
-    wikidata.setQuery(query_string)
-    wikidata.setReturnFormat(JSON)
-    results_prop = wikidata.query().convert()
-    for results in results_prop["results"]["bindings"]:
-      richAndpoorPropLabel.append(results["propLabel"]["value"])
-      richAndPoorColumnCheck.append(richAndpoor_prop_list[i])
+    for entity_id in entity_ids_2:
+        query_string = f"""
+          PREFIX wd: <https://www.wikidata.org/wiki/Special:EntityData/>
+          PREFIX wikibase: <http://wikiba.se/ontology#>
+          SELECT DISTINCT ?OS ?prop {{
+          VALUES ?OS {{wd:{entity_id}}}
+          ?OS ?prop ?value .
+          }}
+          """
 
-  missingProp = list(set(richAndpoor_prop_list) - set(richAndPoorColumnCheck))
-  df_richAndpoor.drop(missingProp, axis = 1)
+        sparql.setQuery(query_string)
+        sparql.setReturnFormat(JSON)
+        results_entity = sparql.query().convert()
 
-  richAndpoorPropLabel.append('poor')
-  richAndpoorPropLabel.append('rich')
-  df_richAndpoor.columns = richAndpoorPropLabel
+        prop_label = [results["prop"]["value"] for results in results_entity["results"]["bindings"]]
 
-  return df_richAndpoor
+        entity_2_db.append(prop_label)
+        entity_merge_db.append(prop_label)
 
-def association_analysis(df_richAndpoor):
-  column = ['antecedents', 'consequents', 'antecedent support', 'consequent support', 'support', 'confidence', 
-            'lift', 'leverage', 'conviction']
-  df_manual_rich = pd.DataFrame(columns=column)
-  columnLabel = df_richAndpoor.columns.tolist()
+    return entity_1_db, entity_2_db, entity_merge_db
 
-  for i in range(len(columnLabel)):
-    antecedent = 'rich'
-    consequent = columnLabel[i]
-    total_transactions = len(df_richAndpoor)
-    antecedent_support = df_richAndpoor[antecedent].value_counts()[True]/total_transactions
-    consequent_support = df_richAndpoor[consequent].value_counts()[True]/total_transactions
-    x_and_y = df_richAndpoor.index[(df_richAndpoor[antecedent] == True) & (df_richAndpoor[consequent] == True)].tolist()
-    x = df_richAndpoor.index[(df_richAndpoor[antecedent] == True)].tolist()
-    y = df_richAndpoor.index[(df_richAndpoor[consequent] == True)].tolist()
-    if len(x_and_y) != 0:
-      support = len(x_and_y) / total_transactions
-      leverage = support - (antecedent_support * consequent_support)
-    else:
-      support = 0
-      leverage = 0
-    confidence = len(x_and_y) / len(x)
-    lift = confidence / consequent_support
-    if confidence < 1:
-      conviction = (1 - consequent_support) / (1 - confidence)
-    else:
-      conviction = 'inf'
-    new_row = {'antecedents':antecedent, 'consequents':consequent, 'antecedent support':antecedent_support, 
-               'consequent support':consequent_support, 'support':support, 'confidence':confidence,
-               'lift':lift, 'leverage':leverage, 'conviction':conviction}
-    df_manual_rich = df_manual_rich.append(new_row, ignore_index=True)
 
-  return df_manual_rich
+def preprocess_db(entity_merge_db):
+    rich_and_poor_count = len(entity_merge_db) // 2
+    # Append labels
+    for i in range(len(entity_merge_db)):
+        if i < rich_and_poor_count:
+            entity_merge_db[i].append('rich')
+        if i >= rich_and_poor_count:
+            entity_merge_db[i].append('poor')
+
+    # Transaction Encoding
+    te = TransactionEncoder()
+    te_ary = te.fit(entity_merge_db).transform(entity_merge_db)
+    rich_and_poor_df = pd.DataFrame(te_ary, columns=te.columns_)
+
+    # Extract property list and split
+    rich_and_poor_prop_list = rich_and_poor_df.columns.tolist()
+    rich_and_poor_prop_list = rich_and_poor_prop_list[:-2]
+    for i in range(len(rich_and_poor_df.columns.tolist()) - 2):
+        rich_and_poor_prop_list[i] = rich_and_poor_prop_list[i].split('/')[-1]
+
+    # Separate properties and values
+    rich_and_poor_value_list = []
+    rich_and_poor_properties = []
+    for i in rich_and_poor_prop_list:
+        if 'Q' in i:
+            rich_and_poor_value_list.append(i)
+        else:
+            rich_and_poor_properties.append(i)
+
+    return rich_and_poor_df, rich_and_poor_value_list, rich_and_poor_properties
+
+
+def fetch_labels_and_update_columns(rich_and_poor_df, rich_and_poor_value_list, rich_and_poor_properties,
+                                    endpoint="https://query.wikidata.org/sparql"):
+    sparql = SPARQLWrapper(endpoint)
+
+    rich_and_poor_prop_label = []
+
+    for i in (range(len(rich_and_poor_properties))):
+        query_string = """
+        SELECT DISTINCT ?propLabel {
+          VALUES ?p {wdt:""" + rich_and_poor_properties[i] + """}
+          SERVICE wikibase:label { bd:serviceParam wikibase:language "en". } 
+          ?prop wikibase:directClaim ?p .
+        }
+        """
+
+        sparql.setQuery(query_string)
+        sparql.setReturnFormat(JSON)
+        results_prop = sparql.query().convert()
+        for results in results_prop["results"]["bindings"]:
+            rich_and_poor_prop_label.append(results["propLabel"]["value"])
+
+    rich_and_poor_value_label = []
+
+    for i in (range(len(rich_and_poor_value_list))):
+        query_string = """
+        SELECT DISTINCT ?pLabel {
+          VALUES ?p {wd:""" + rich_and_poor_value_list[i] + """}
+          SERVICE wikibase:label { bd:serviceParam wikibase:language "en". } 
+        }
+        """
+
+        sparql.setQuery(query_string)
+        sparql.setReturnFormat(JSON)
+        results_prop = sparql.query().convert()
+        for results in results_prop["results"]["bindings"]:
+            rich_and_poor_value_label.append(results["pLabel"]["value"])
+
+    rich_and_poor_column = rich_and_poor_value_label.copy()
+    rich_and_poor_column.extend(rich_and_poor_prop_label)
+
+    rich_and_poor_column.append('poor')
+    rich_and_poor_column.append('rich')
+    rich_and_poor_df.columns = rich_and_poor_column
+
+    return rich_and_poor_df
+
+
+def calculate_rule_metrics(rich_and_poor_df, rich_and_poor_prop_label, antecedent_value):
+    column = ['antecedents', 'consequents', 'antecedent support', 'consequent support',
+              'support', 'confidence', 'lift', 'leverage', 'conviction']
+
+    df_manual = pd.DataFrame(columns=column)
+
+    for i in range(len(rich_and_poor_prop_label)):
+        antecedent = antecedent_value
+        consequent = rich_and_poor_prop_label[i]
+        total_transactions = len(rich_and_poor_df)
+        antecedent_support = rich_and_poor_df[antecedent].value_counts()[True]/total_transactions
+        consequent_support = rich_and_poor_df[consequent].value_counts()[True]/total_transactions
+        x_and_y = rich_and_poor_df.index[(rich_and_poor_df[antecedent] == True) &
+                                         (rich_and_poor_df[consequent] == True)].tolist()
+        x = rich_and_poor_df.index[(rich_and_poor_df[antecedent] == True)].tolist()
+        if len(x_and_y) != 0:
+            support = len(x_and_y) / total_transactions
+            leverage = support - (antecedent_support * consequent_support)
+        else:
+            support = 0
+            leverage = 0
+        confidence = len(x_and_y) / len(x)
+        lift = confidence / consequent_support
+        if confidence < 1:
+            conviction = (1 - consequent_support) / (1 - confidence)
+        else:
+            conviction = 'inf'
+        new_row = {'antecedents': antecedent, 'consequents': consequent,
+                   'antecedent support': antecedent_support,
+                   'consequent support': consequent_support, 'support': support,
+                   'confidence': confidence, 'lift': lift, 'leverage': leverage,
+                   'conviction': conviction}
+        df_manual = df_manual.append(new_row, ignore_index=True)
+
+    return df_manual
+
 
 def gap_properties(associationRuleDf):
   filtered = associationRuleDf[(associationRuleDf['support']>=0.1) & (associationRuleDf['lift']>=1.5)]

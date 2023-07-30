@@ -158,7 +158,7 @@ def fetch_labels_and_update_columns(rich_and_poor_df, rich_and_poor_value_list, 
     return rich_and_poor_df
 
 
-def calculate_rule_metrics(rich_and_poor_df, rich_and_poor_prop_label, antecedent_value):
+def calculate_rule_metrics(rich_and_poor_df, rich_and_poor_prop_label, antecedent_value, csv_file_name):
     column = ['antecedents', 'consequents', 'antecedent support', 'consequent support',
               'support', 'confidence', 'lift', 'leverage', 'conviction']
 
@@ -192,19 +192,8 @@ def calculate_rule_metrics(rich_and_poor_df, rich_and_poor_prop_label, anteceden
                    'conviction': conviction}
         df_manual = df_manual.append(new_row, ignore_index=True)
 
-    return df_manual
+        # Sort by lift in descending order
+        df_manual = df_manual.sort_values('lift', ascending=False)
 
-
-def gap_properties(associationRuleDf):
-  filtered = associationRuleDf[(associationRuleDf['support']>=0.1) & (associationRuleDf['lift']>=1.5)]
-
-  return filtered
-
-def gap_property_ratio(associationRuleDf):
-  filtered = associationRuleDf[(associationRuleDf['support']>=0.1) & (associationRuleDf['lift']>=1.5)]
-
-  totalProperties = associationRuleDf[(associationRuleDf['support']>=0.1)]
-
-  gpr = filtered/totalProperties
-  return gpr
-
+        # Export to CSV
+        df_manual.to_csv(csv_file_name, index=False)

@@ -3,7 +3,7 @@ from mlxtend.preprocessing import TransactionEncoder
 from SPARQLWrapper import SPARQLWrapper, JSON
 
 
-def query_entity(sparql_endpoint, prop_entity_pairs, sort_order='', limit=20):
+def query_entity(sparql_endpoint, prop_entity_pairs, sort_order=''):
     sparql = SPARQLWrapper(sparql_endpoint)
     conditions = ' .\n'.join([f'?entity wdt:{prop} wd:{entity} ' for prop, entity in prop_entity_pairs])
     query = f"""
@@ -19,7 +19,6 @@ def query_entity(sparql_endpoint, prop_entity_pairs, sort_order='', limit=20):
 
       }} GROUP BY ?entity
       ORDER BY {sort_order}(?total) 
-      LIMIT {limit}
     """
     sparql.setQuery(query)
     sparql.setReturnFormat(JSON)
@@ -40,31 +39,38 @@ def get_property_labels_two_lists(entity_ids_1, entity_ids_2, sparql):
 
     for entity_id in entity_ids_1:
         query_string = f"""
-          PREFIX wd: <https://www.wikidata.org/wiki/Special:EntityData/>
+          PREFIX wd: <http://www.wikidata.org/entity/>
+          PREFIX wdt: <http://www.wikidata.org/prop/direct/>
           PREFIX wikibase: <http://wikiba.se/ontology#>
-          SELECT DISTINCT ?OS ?prop {{
-          VALUES ?OS {{wd:{entity_id}}}
-          ?OS ?prop ?value .
+          
+          SELECT ?prop WHERE {{
+          {{wd:{entity_id}}} ?prop ?value .
           }}
-          """
+        """
         sparql.setQuery(query_string)
         sparql.setReturnFormat(JSON)
         results_entity = sparql.query().convert()
 
         prop_label = [results["prop"]["value"] for results in results_entity["results"]["bindings"]]
 
-        entity_1_db.append(prop_label)
-        entity_merge_db.append(prop_label)
+        codes = [url.split('/')[-1] for url in prop_label]
+        unique_codes = list(set(codes))
+
+        filtered_list = [code for code in unique_codes if code.startswith('P') and code[1:].isdigit()]
+
+        entity_1_db.append(filtered_list)
+        entity_merge_db.append(filtered_list)
 
     for entity_id in entity_ids_2:
         query_string = f"""
-          PREFIX wd: <https://www.wikidata.org/wiki/Special:EntityData/>
+          PREFIX wd: <http://www.wikidata.org/entity/>
+          PREFIX wdt: <http://www.wikidata.org/prop/direct/>
           PREFIX wikibase: <http://wikiba.se/ontology#>
-          SELECT DISTINCT ?OS ?prop {{
-          VALUES ?OS {{wd:{entity_id}}}
-          ?OS ?prop ?value .
+
+          SELECT ?prop WHERE {{
+          {{wd:{entity_id}}} ?prop ?value .
           }}
-          """
+        """
 
         sparql.setQuery(query_string)
         sparql.setReturnFormat(JSON)
@@ -72,8 +78,13 @@ def get_property_labels_two_lists(entity_ids_1, entity_ids_2, sparql):
 
         prop_label = [results["prop"]["value"] for results in results_entity["results"]["bindings"]]
 
-        entity_2_db.append(prop_label)
-        entity_merge_db.append(prop_label)
+        codes = [url.split('/')[-1] for url in prop_label]
+        unique_codes = list(set(codes))
+
+        filtered_list = [code for code in unique_codes if code.startswith('P') and code[1:].isdigit()]
+
+        entity_2_db.append(filtered_list)
+        entity_merge_db.append(filtered_list)
 
     return entity_1_db, entity_2_db, entity_merge_db
 
@@ -94,9 +105,6 @@ def preprocess_db(entity_merge_db):
 
     # Extract property list and split
     rich_and_poor_prop_list = rich_and_poor_df.columns.tolist()
-    rich_and_poor_prop_list = rich_and_poor_prop_list[:-2]
-    for i in range(len(rich_and_poor_df.columns.tolist()) - 2):
-        rich_and_poor_prop_list[i] = rich_and_poor_prop_list[i].split('/')[-1]
 
     # Separate properties and values
     rich_and_poor_value_list = []

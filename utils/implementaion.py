@@ -3,23 +3,8 @@ from mlxtend.preprocessing import TransactionEncoder
 from SPARQLWrapper import SPARQLWrapper, JSON
 
 
-def query_entity(sparql_endpoint, prop_entity_pairs, sort_order=''):
+def query_entity(sparql_endpoint, query):
     sparql = SPARQLWrapper(sparql_endpoint)
-    conditions = ' .\n'.join([f'?entity wdt:{prop} wd:{entity} ' for prop, entity in prop_entity_pairs])
-    query = f"""
-      PREFIX wd: <http://www.wikidata.org/entity/>
-      PREFIX wdt: <http://www.wikidata.org/prop/direct/>
-      SELECT ?entity (COUNT(?property) AS ?total) {{
-
-      SELECT DISTINCT ?entity ?property
-      WHERE {{
-      {conditions}
-      ?entity ?property ?value .
-      }} 
-
-      }} GROUP BY ?entity
-      ORDER BY {sort_order}(?total) 
-    """
     sparql.setQuery(query)
     sparql.setReturnFormat(JSON)
     query_result = sparql.query().convert()
@@ -32,20 +17,21 @@ def query_entity(sparql_endpoint, prop_entity_pairs, sort_order=''):
     return entity_ids
 
 
-def get_property_labels_two_lists(entity_ids_1, entity_ids_2, sparql):
+def get_property_labels_two_lists(entity_ids_1, entity_ids_2, sparql_endpoint):
+    sparql = SPARQLWrapper(sparql_endpoint)
     entity_1_db = []
     entity_merge_db = []
     entity_2_db = []
 
     for entity_id in entity_ids_1:
-        query_string = f"""
-          PREFIX wd: <http://www.wikidata.org/entity/>
-          PREFIX wdt: <http://www.wikidata.org/prop/direct/>
-          PREFIX wikibase: <http://wikiba.se/ontology#>
+        query_string = """
+        PREFIX wd: <http://www.wikidata.org/entity/>
+        PREFIX wdt: <http://www.wikidata.org/prop/direct/>
+        PREFIX wikibase: <http://wikiba.se/ontology#>
           
-          SELECT ?prop WHERE {{
-          {{wd:{entity_id}}} ?prop ?value .
-          }}
+        SELECT ?prop WHERE {
+          wd:""" + entity_id + """ ?prop ?value .
+        }
         """
         sparql.setQuery(query_string)
         sparql.setReturnFormat(JSON)
@@ -62,14 +48,14 @@ def get_property_labels_two_lists(entity_ids_1, entity_ids_2, sparql):
         entity_merge_db.append(filtered_list)
 
     for entity_id in entity_ids_2:
-        query_string = f"""
-          PREFIX wd: <http://www.wikidata.org/entity/>
-          PREFIX wdt: <http://www.wikidata.org/prop/direct/>
-          PREFIX wikibase: <http://wikiba.se/ontology#>
+        query_string = """
+        PREFIX wd: <http://www.wikidata.org/entity/>
+        PREFIX wdt: <http://www.wikidata.org/prop/direct/>
+        PREFIX wikibase: <http://wikiba.se/ontology#>
 
-          SELECT ?prop WHERE {{
-          {{wd:{entity_id}}} ?prop ?value .
-          }}
+        SELECT ?prop WHERE {
+          wd:""" + entity_id + """ ?prop ?value .
+        }
         """
 
         sparql.setQuery(query_string)
@@ -162,7 +148,7 @@ def fetch_labels_and_update_columns(rich_and_poor_df, rich_and_poor_value_list, 
     rich_and_poor_column.append('rich')
     rich_and_poor_df.columns = rich_and_poor_column
 
-    return rich_and_poor_df
+    return rich_and_poor_df, rich_and_poor_prop_label
 
 
 def calculate_rule_metrics(rich_and_poor_df, rich_and_poor_prop_label, antecedent_value, csv_file_name):

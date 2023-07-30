@@ -22,6 +22,11 @@ These instructions can help you get the project up and running
 >`https://github.com/RDFLib/sparqlwrapper`
 3. Apache Jena
 >`https://jena.apache.org/download/index.cgi`
+4. mlxtend
+>`https://rasbt.github.io/mlxtend/installation/`
+
+### Authors
+See the project example on example.py and example.ipynb
 
 ### Authors
 Millenio Ramadizsa

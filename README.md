@@ -1,6 +1,6 @@
 # Association Analysis Knowledge Imbalance on Wikidata
 
-This project is created in order to fulfill the implementation of the project undergraduate thesis in the Faculty of Computer Science, Universitas Indonesia.
+This project is created in order to fulfill the implementation of Gap Property In Wikidata.
 
 # Getting Started
 
@@ -9,7 +9,9 @@ These instructions can help you get the project up and running
 ### Prerequisites
 1. Python 3
 2. SPARQLWrapper Library
-3Apache Jena
+3. Apache Jena
+4. mlxtend
+5. pandas
 
 > `git clone https://github.com/millerama17/association-analysis.git`
 

@@ -1,4 +1,3 @@
-import numpy as np
 import pandas as pd
 from mlxtend.preprocessing import TransactionEncoder
 from SPARQLWrapper import SPARQLWrapper, JSON

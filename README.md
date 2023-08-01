@@ -25,7 +25,7 @@ These instructions can help you get the project up and running
 4. mlxtend
 >`https://rasbt.github.io/mlxtend/installation/`
 
-### Authors
+### Example
 See the project example on example.py and example.ipynb
 
 ### Authors

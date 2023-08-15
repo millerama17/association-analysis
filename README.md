@@ -29,6 +29,6 @@ These instructions can help you get the project up and running
 See the project example on example.py and example.ipynb
 
 ### Authors
-Millenio Ramadizsa
-Fariz Darari
-Werner Nutt
+- Millenio Ramadizsa
+- Fariz Darari
+- Werner Nutt

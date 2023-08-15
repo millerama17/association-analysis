@@ -1,4 +1,4 @@
-from utils.implementaion import *
+from utils.implementation import *
 from utils.gap_property import *
 
 query_rich = """

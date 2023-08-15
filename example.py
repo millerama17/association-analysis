@@ -14,6 +14,7 @@ SELECT ?entity (COUNT(?property) AS ?total) {
 
 } GROUP BY ?entity
 ORDER BY DESC(?total)
+LIMIT 20
 """
 
 query_poor = """
@@ -29,6 +30,7 @@ SELECT ?entity (COUNT(?property) AS ?total) {
 
 } GROUP BY ?entity
 ORDER BY ?total
+LIMIT 20
 """
 
 sparql_endpoint = "https://query.wikidata.org/sparql"

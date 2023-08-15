@@ -2,27 +2,19 @@
 
 This project is created in order to fulfill the implementation of Gap Property In Wikidata.
 
-# Getting Started
-
-These instructions can help you get the project up and running
+### Short Description
+Society, science, and economy are becoming more and more data-driven, and therefore the study of gaps in knowledge gains importance. The arguably most prominent public source of structured knowledge is Wikidata, which contains impressive amounts of knowledge, but nonetheless comes with surprising gaps. This library aims to identify class-level knowledge gaps in Wikidata, based on the concepts of gap properties, i.e., properties that mostly exist for prominent entities, but are missing in the tail, and the gap property ratio.
 
 ### Prerequisites
-1. Python 3
-2. SPARQLWrapper Library
-3. Apache Jena
-4. mlxtend
-5. pandas
-
-> `git clone https://github.com/millerama17/association-analysis.git`
-
-### Installation
-1. pandas
+1. Python 
+>`https://www.python.org/downloads/`
+2. pandas
 >`https://pandas.pydata.org/docs/getting_started/install.html`
-2. sparqlwrapper
+3. sparqlwrapper
 >`https://github.com/RDFLib/sparqlwrapper`
-3. Apache Jena
+4. Apache Jena
 >`https://jena.apache.org/download/index.cgi`
-4. mlxtend
+5. mlxtend
 >`https://rasbt.github.io/mlxtend/installation/`
 
 ### Example

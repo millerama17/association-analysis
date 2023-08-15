@@ -1,4 +1,4 @@
-# Association Analysis Knowledge Imbalance on Wikidata
+# Knowledge gap discovery: A case study of Wikidata
 
 This project is created in order to fulfill the implementation of Gap Property In Wikidata.
 

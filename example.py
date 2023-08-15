@@ -45,4 +45,4 @@ rich_and_poor_df_updated, rich_and_poor_prop_label = fetch_labels_and_update_col
 calculate_rule_metrics(rich_and_poor_df_updated, rich_and_poor_prop_label,
                        "rich", "example.csv")
 df = pd.read_csv("example.csv")
-filter_and_export("example.csv", "relevant_properties_example.xlsx")
+filter_and_export("example.csv", "gap_properties_example.xlsx")

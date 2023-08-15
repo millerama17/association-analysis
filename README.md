@@ -15,7 +15,7 @@ These instructions can help you get the project up and running
 
 > `git clone https://github.com/millerama17/association-analysis.git`
 
-### installing
+### Installation
 1. pandas
 >`https://pandas.pydata.org/docs/getting_started/install.html`
 2. sparqlwrapper
@@ -30,3 +30,5 @@ See the project example on example.py and example.ipynb
 
 ### Authors
 Millenio Ramadizsa
+Fariz Darari
+Werner Nutt

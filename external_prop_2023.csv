@@ -1,0 +1,268 @@
+Code,Property Label
+P244,Library of Congress authority ID
+P10196,Norgeshistorie ID
+P10199,F6S ID
+P10237,Joconde representation ID
+P10297,Google Arts & Culture entity ID
+P10380,Springer Nature Subjects Taxonomy ID
+P10389,Urban Electric Transit model ID
+P10402,ULI ID
+P10431,Portable Antiquities Scheme object type ID
+P10490,LDT @ Library Subject Terms Authority ID
+P10491,LDT @ Library Classification Authority ID
+P1051,PSH ID
+P10510,Arachne entity ID
+P10796,Italian Chamber of Deputies government ID
+P10797,Italian Chamber of Deputies parliamentary group ID
+P10848,Beamish peerage database peerage ID
+P10872,Palmares Cultural Foundation process number
+P10890,PM20 ware ID
+P10892,Bioconductor project
+P10956,Odnoklassniki group numeric ID
+P10964,Federation Council reference ID
+P11027,Football 24 article ID Russian
+P11028,Football 24 article ID
+P11047,Odnoklassniki artist ID
+P11167,NARA File Format Preservation Plan ID
+P11196,Baidu Tieba name
+P11386,Listal.com ID
+P11400,microtransaction.zone ID
+P11408,Pixiv Encyclopedia ID
+P11411,Pocket Gamer ID
+P11440,REGON ID
+P11462,Africultures structure ID
+P11468,PodLink ID
+P11471,WikiRate company ID
+P11473,Concepticon ID
+P11474,Ès lettres ID
+P11483,Anadolu Agency infographic ID
+P11489,1001Tracklists source ID
+P11557,Barcelona City Council Heritage Catalog ID
+P11615,InfluenceWatch influencer
+P11675,Sjøhistorie ship ID
+P11684,Saint Petersburg Conservatory person ID
+P11695,literatura.lv ID
+P11852,QLIT ID
+P11941,British Institute at Ankara place ID
+P11946,Mythoskop ID
+P11955,UMLS Semantic Network ID
+P11956,Experimental Factor Ontology ID
+P1256,Iconclass notation
+P1294,WWF ecoregion code
+P1323,Terminologia Anatomica 98 ID
+P1394,Glottolog code
+P1402,Foundational Model of Anatomy ID
+P1461,Patientplus ID
+P1471,reporting mark
+P1550,Orphanet ID
+P1554,UBERON ID
+P1645,NIST/CODATA ID
+P1690,ICD-10-PCS
+P1693,Terminologia Embryologica
+P1694,Terminologia Histologica
+P1755,Aviation Safety Network accident ID
+P1760,Aviation Safety Network Wikibase Occurrence
+P1769,denkXweb ID
+P1888,Dictionary of Medieval Names from European Sources entry
+P1928,Vaccine Ontology ID
+P1987,MCN code
+P2004,NALT ID
+P2106,RXNO Ontology
+P2158,Cell Line Ontology ID
+P2179,ACM Classification Code (2012)
+P2263,ISOCAT ID
+P2355,UNESCO Atlas of the World's Languages in Danger ID
+P2357,Classification of Instructional Programs code
+P2367,Australian Stratigraphic Units Database ID
+P2372,ODIS ID
+P2452,GeoNames feature code
+P2457,Australian National Shipwreck ID
+P2479,SPDX license ID
+P2620,ISO 15924 numeric code
+P2671,Google Knowledge Graph ID
+P2689,BARTOC ID
+P2742,Australian Geological Provinces ID
+P2748,PRONOM file format ID
+P2751,Roller Coaster Database ID
+P2759,AUSNUT food ID
+P2760,NUTTAB food ID
+P2812,MathWorld ID
+P2874,PubChem BioAssay ID (AID)
+P305,IETF language tag
+P3074,Grace's Guide ID
+P3088,Catalogue of Life in Taiwan ID
+P3201,Medical Dictionary for Regulatory Activities ID
+P3222,NE.se ID
+P3240,NBN System Key
+P3241,Catholic Encyclopedia ID
+P3243,OKVED 1.1 code of the economic activity
+P3246,OKVED 2 code of the economic activity
+P3280,BAnQ authority ID
+P3285,Mathematics Subject Classification ID
+P3289,Cellosaurus ID
+P3328,wurvoc.org measure ID
+P3338,Encyclopedia of Surfing ID
+P3347,PermID
+P3370,Géopatronyme ID
+P3381,File Format Wiki page ID
+P3390,NLB authority ID
+P3400,CORDIS Project ID
+P3545,Theoi Project ID
+P3552,Australian Registered Scheme Number
+P3583,Surfline ID
+P3720,GPnotebook ID
+P3743,ITU/ISO/IEC object ID
+P377,SCN
+P3790,AnimeCons.com guest ID
+P3798,Star Wars Databank ID
+P3811,Evidence & Conclusion Ontology ID
+P3827,JSTOR topic ID
+P3854,Soundtrack Collector title ID
+P3859,Environment Ontology ID
+P3885,History of Modern Biomedicine ID
+P3895,INAO product ID
+P3917,IPA number order (BEING DELETED)
+P3941,Israel Antiquities Authority ID
+P3949,Juwra.com ID
+P3962,Global Trade Item Number
+P3982,TA98 Latin term
+P3984,subreddit
+P3986,Sequence Ontology ID
+P3998,Censo-Guía archive ID
+P4073,Fandom wiki ID
+P4106,Finnish archaeological heritage ID
+P4201,PagesJaunes ID
+P4229,ICD-10-CM
+P4272,DPLA subject term
+P4294,PROSPERO ID
+P4297,MIL-STD-2525 Symbol Identification Code
+P4333,GenBank assembly accession number
+P4336,Lloyd's Register Ship ID
+P4355,PROSITE documentation ID
+P4389,Science Museum people ID
+P4394,NeuroNames ID (plain mode)
+P4395,BrainInfo ID (hierarchical)
+P4460,Kaitai Struct format gallery ID
+P4515,Prisma ID
+P4537,Spider Ontology ID
+P4549,ARLIMA ID
+P4553,RA Collections ID
+P4589,Dreadnought Project page
+P4618,AUSNUT 2011–13 Food Group ID
+P4636,Sherpa Juliet ID
+P4662,SAN archive conservator ID
+P4695,GEMS Code
+P4696,CIQUAL2017 ID
+P4726,Sign@l journal ID
+P4729,INRAN Italian Food ID
+P484,"IMA Number, broad sense"
+P486,MeSH descriptor ID
+P493,ICD-9 ID
+P494,ICD-10
+P498,ISO 4217 code
+P502,HURDAT ID
+P503,ISO standard
+P5034,National Library of Korea ID
+P506,ISO 15924 alpha-4 code
+P5429,IPTC NewsCode
+P5569,Tebeosfera character ID
+P557,DiseasesDB
+P5610,OpenMath ID
+P5620,FFF character ID
+P563,ICD-O
+P5638,IEEE standard
+P5690,Saskatchewan Sports Hall of Fame ID
+P5712,IMEC ID
+P5740,So Foot Player ID
+P587,MMSI
+P5910,ENI number
+P6002,WikiArt ID
+P6077,British Museum bioID
+P6132,Playbill person ID
+P6416,sport-strana.ru article ID
+P646,Freebase ID
+P663,DSM-IV classification
+P6654,Periscope ID
+P667,ICPC 2 ID
+P6671,French public service directory ID
+P6672,Placar UOL Eleições ID
+P6680,MeSH term ID
+P6681,EUNIS ID for habitats
+P6683,Alexander Turnbull Library ID
+P6689,MassBank accession ID
+P6694,MeSH concept ID
+P6698,Japan Search name ID
+P6752,RGALI ID
+P6771,Arabic Ontology ID
+P6795,Unified Social Credit ID
+P6816,The Dragon Archive ID
+P6817,SVT Play ID
+P6821,Uppsala University Alvin ID
+P6823,GNU ELPA package ID
+P6839,TV Tropes ID
+P6845,abART document ID
+P686,Gene Ontology ID
+P6861,dbSNP Reference SNP number
+P6867,Gamepedia wiki ID
+P6888,MELPA package ID
+P6944,Bionomia ID
+P6950,Scandipop topic ID
+P699,Disease Ontology ID
+P7068,Gotlands museum entity ID
+P7131,Bureau des longitudes ID
+P7173,TA2 ID
+P7258,Toons Mag ID
+P731,Litholex ID
+P7895,Whaling History ID
+P7963,Cell Ontology ID
+P8008,Google Scholar case ID
+P8028,GameRevolution game ID
+P8075,ScreenScraper group ID
+P8077,FHF establishment ID
+P8106,SOCAN work number
+P8230,Bookogs credit ID
+P8238,Bibliography of the History of Slovakia ID
+P8242,Niden INE
+P8272,BaGLAMa GID
+P8283,ISCO-08 occupation class
+P8400,House Divided ID
+P847,United States Navy aircraft designation
+P849,Japanese military aircraft designation
+P862,Operational Requirement of the UK Air Ministry
+P863,InPhO ID
+P8647,Library of Congress Children's Subject Headings ID
+P8679,"Dictionary of Occupational Titles Code (fourth edition, revised)"
+P8717,ILO Thesaurus ID
+P8734,O*NET OnLine code
+P8809,AIWARDS ID
+P8895,All the Tropes ID
+P9027,e-GEDSH ID
+P9037,BHCL UUID
+P918,NOC Occupation Code
+P919,SOC Code (2010)
+P920,LEM ID
+P9206,Swissvote ID
+P9272,DeCS ID
+P9278,Pandektis ID
+P9309,TaDiRAH ID
+P9334,Cephalopod Ontology ID
+P9340,MeSH descriptor/qualifier ID
+P9341,MeSH qualifier ID
+P9350,PeriodO period ID
+P9356,Hymenoptera Anatomy Ontology ID
+P9382,Unicode character name
+P9490,Yukon Archives authority record ID
+P9497,Australian Thesaurus of Education Descriptors ID
+P9507,NBM authority ID
+P952,ISCO-88 occupation class
+P9544,universal equine life number
+P9554,hPSCreg cell line ID
+P9555,Michigan State University Library Comic Art Collection Record Number
+P9613,ctext data entity ID
+P9648,Newspaper Genre List ID
+P9736,MANTO ID
+P9827,GSSO ID
+P9867,e-Maapõu stratigraphy ID
+P9974,ITU radio emission designation
+Q114889868,Frits Lugt collection of marques and stamps
+Q120049383,HSP-ID

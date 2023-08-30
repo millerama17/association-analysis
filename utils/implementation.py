@@ -17,7 +17,7 @@ def query_entity(sparql_endpoint, query):
     return entity_ids
 
 
-def get_property_labels_two_lists(entity_ids_1, entity_ids_2, sparql_endpoint):
+def get_property_labels_two_lists(entity_ids_1, entity_ids_2, sparql_endpoint, external_properties):
     sparql = SPARQLWrapper(sparql_endpoint)
     entity_1_db = []
     entity_merge_db = []
@@ -42,7 +42,8 @@ def get_property_labels_two_lists(entity_ids_1, entity_ids_2, sparql_endpoint):
         codes = [url.split('/')[-1] for url in prop_label]
         unique_codes = list(set(codes))
 
-        filtered_list = [code for code in unique_codes if code.startswith('P') and code[1:].isdigit()]
+        filtered_list = [code for code in unique_codes if code.startswith('P') and code[1:].isdigit() and code not in
+                         external_properties]
 
         entity_1_db.append(filtered_list)
         entity_merge_db.append(filtered_list)
@@ -67,7 +68,8 @@ def get_property_labels_two_lists(entity_ids_1, entity_ids_2, sparql_endpoint):
         codes = [url.split('/')[-1] for url in prop_label]
         unique_codes = list(set(codes))
 
-        filtered_list = [code for code in unique_codes if code.startswith('P') and code[1:].isdigit()]
+        filtered_list = [code for code in unique_codes if code.startswith('P') and code[1:].isdigit() and code not in
+                         external_properties]
 
         entity_2_db.append(filtered_list)
         entity_merge_db.append(filtered_list)

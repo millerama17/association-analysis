@@ -1,627 +1,604 @@
 antecedents,consequents,antecedent support,consequent support,support,confidence,lift,leverage,conviction
 rich,video,0.5,0.075,0.075,0.15,2.0,0.0375,1.0882352941176472
-rich,Gujarati Vishwakosh entry,0.5,0.125,0.125,0.25,2.0,0.0625,1.1666666666666667
-rich,Isidore scholar ID,0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
-rich,Jewish Encyclopedia ID (Russian),0.5,0.5,0.5,1.0,2.0,0.25,inf
-rich,Encyclopaedia of Islam (third edition) ID,0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
-rich,British Museum place ID,0.5,0.125,0.125,0.25,2.0,0.0625,1.1666666666666667
 rich,Swedish National Library Arken ID,0.5,0.05,0.05,0.1,2.0,0.025,1.0555555555555556
-rich,external data available at URL,0.5,0.1,0.1,0.2,2.0,0.05,1.125
-rich,social media followers,0.5,0.25,0.25,0.5,2.0,0.125,1.5
-rich,Historical Gazetteer (GOV) ID,0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
-rich,free/libre open source software development policy URL,0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
-rich,World History Encyclopedia ID,0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
-rich,TED topic ID,0.5,0.05,0.05,0.1,2.0,0.025,1.0555555555555556
-rich,YIVO Encyclopedia of Jews in Eastern Europe ID,0.5,0.15,0.15,0.3,2.0,0.075,1.2142857142857144
-rich,native language,0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
-rich,World Encyclopedia of Puppetry Arts ID,0.5,0.5,0.5,1.0,2.0,0.25,inf
-rich,PARES ID,0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
-rich,Gregorian calendar start date,0.5,0.2,0.2,0.4,2.0,0.1,1.3333333333333335
-rich,JewishGen Locality ID,0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
-rich,Schoenberg Database of Manuscripts place ID,0.5,0.475,0.475,0.95,2.0,0.2375,10.499999999999991
-rich,Urban Electric Transit country ID,0.5,0.5,0.5,1.0,2.0,0.25,inf
-rich,BVMC place ID,0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
-rich,central government debt as a percent of GDP,0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
-rich,designated as terrorist by,0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
-rich,vocalized name,0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
-rich,drainage basin,0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
-rich,Global Anabaptist Mennonite Encyclopedia Online ID,0.5,0.275,0.275,0.55,2.0,0.1375,1.6111111111111112
-rich,BHL creator ID,0.5,0.125,0.125,0.25,2.0,0.0625,1.1666666666666667
-rich,TASS Encyclopedia country ID,0.5,0.05,0.05,0.1,2.0,0.025,1.0555555555555556
-rich,minimum wage,0.5,0.05,0.05,0.1,2.0,0.025,1.0555555555555556
-rich,Mastodon address,0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
 rich,Dialnet article ID,0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
-rich,symogih.org ID,0.5,0.05,0.05,0.1,2.0,0.025,1.0555555555555556
-rich,Dreadnought Project page,0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
-rich,Provenio UUID,0.5,0.3,0.3,0.6,2.0,0.15,1.7499999999999998
-rich,studied by,0.5,0.25,0.25,0.5,2.0,0.125,1.5
-rich,has works in the collection,0.5,0.05,0.05,0.1,2.0,0.025,1.0555555555555556
-rich,IGI Global Dictionary ID,0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
-rich,SBN place ID,0.5,0.175,0.175,0.35,2.0,0.0875,1.2692307692307692
-rich,TripAdvisor ID,0.5,0.275,0.275,0.55,2.0,0.1375,1.6111111111111112
-rich,literate population,0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
-rich,Pixiv Encyclopedia ID,0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
-rich,Open Library ID,0.5,0.125,0.125,0.25,2.0,0.0625,1.1666666666666667
-rich,Enzyklopädie des europäischen Ostens ID,0.5,0.125,0.125,0.25,2.0,0.0625,1.1666666666666667
-rich,Great Encyclopedia of Cyril and Methodius entry ID,0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
-rich,partially coincident with,0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
-rich,religion or worldview,0.5,0.075,0.075,0.15,2.0,0.0375,1.0882352941176472
-rich,Encyclopaedia Beliana ID,0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
-rich,annual number of weddings,0.5,0.075,0.075,0.15,2.0,0.0375,1.0882352941176472
-rich,coastline,0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
-rich,topographic map,0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
-rich,Hrvatska enciklopedija ID,0.5,0.325,0.325,0.65,2.0,0.1625,1.9285714285714288
-rich,Gyldendals Teaterleksikon ID,0.5,0.35,0.35,0.7,2.0,0.175,2.1666666666666665
-rich,logo image,0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
-rich,Swedish Anbytarforum,0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
 rich,UIC alphabetical country code,0.5,0.375,0.375,0.75,2.0,0.1875,2.5
-rich,Omni topic ID,0.5,0.175,0.175,0.35,2.0,0.0875,1.2692307692307692
-rich,NSK ID,0.5,0.1,0.1,0.2,2.0,0.05,1.125
-rich,Biblioteca Nacional de México ID,0.5,0.125,0.125,0.25,2.0,0.0625,1.1666666666666667
-rich,Uppslagsverket Finland ID,0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
-rich,category for honorary citizens of entity,0.5,0.325,0.325,0.65,2.0,0.1625,1.9285714285714288
-rich,C-SPAN organization ID,0.5,0.175,0.175,0.35,2.0,0.0875,1.2692307692307692
-rich,Open Civic Data Division ID,0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
-rich,GS1 country code,0.5,0.5,0.5,1.0,2.0,0.25,inf
-rich,coextensive with,0.5,0.075,0.075,0.15,2.0,0.0375,1.0882352941176472
-rich,Instagram username,0.5,0.15,0.15,0.3,2.0,0.075,1.2142857142857144
-rich,Mindat locality ID,0.5,0.25,0.25,0.5,2.0,0.125,1.5
-rich,time of earliest written record,0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
-rich,Disney A to Z ID,0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
-rich,name,0.5,0.125,0.125,0.25,2.0,0.0625,1.1666666666666667
-rich,The Independent topic ID,0.5,0.125,0.125,0.25,2.0,0.0625,1.1666666666666667
-rich,SBN author ID,0.5,0.05,0.05,0.1,2.0,0.025,1.0555555555555556
-rich,Twitter topic ID,0.5,0.075,0.075,0.15,2.0,0.0375,1.0882352941176472
-rich,Trading Card Database person ID,0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
-rich,participant in,0.5,0.375,0.375,0.75,2.0,0.1875,2.5
-rich,Media Arts Database ID,0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
-rich,BVPB authority ID,0.5,0.075,0.075,0.15,2.0,0.0375,1.0882352941176472
-rich,BDCYL authority ID,0.5,0.075,0.075,0.15,2.0,0.0375,1.0882352941176472
-rich,Iranica ID,0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
-rich,poverty incidence,0.5,0.075,0.075,0.15,2.0,0.0375,1.0882352941176472
-rich,Mapy.cz ID,0.5,0.25,0.25,0.5,2.0,0.125,1.5
-rich,funder,0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
-rich,Hungarian National Namespace place ID (old),0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
-rich,OpenAlex ID,0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
-rich,Trismegistos Geo ID,0.5,0.15,0.15,0.3,2.0,0.075,1.2142857142857144
-rich,Vision of Britain place ID,0.5,0.05,0.05,0.1,2.0,0.025,1.0555555555555556
-rich,mean age,0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
-rich,Uppsala University Alvin ID,0.5,0.075,0.075,0.15,2.0,0.0375,1.0882352941176472
-rich,Semantic Scholar author ID,0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
-rich,AEDA geographic keyword ID,0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
-rich,Daum Encyclopedia ID,0.5,0.05,0.05,0.1,2.0,0.025,1.0555555555555556
-rich,Theatricalia theatre ID,0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
-rich,panoramic view,0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
-rich,Hill Museum & Manuscript Library ID,0.5,0.05,0.05,0.1,2.0,0.025,1.0555555555555556
-rich,Academy Awards Database nominee ID,0.5,0.25,0.25,0.5,2.0,0.125,1.5
-rich,age of consent,0.5,0.125,0.125,0.25,2.0,0.0625,1.1666666666666667
-rich,PRELIB organization ID,0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
-rich,Vokrug sveta article ID,0.5,0.075,0.075,0.15,2.0,0.0375,1.0882352941176472
-rich,Australian Statistical Geography 2016 ID,0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
-rich,Threads username,0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
-rich,NUTS code,0.5,0.25,0.25,0.5,2.0,0.125,1.5
-rich,Natural Atlas ID,0.5,0.075,0.075,0.15,2.0,0.0375,1.0882352941176472
-rich,bashenc.online ID,0.5,0.225,0.225,0.45,2.0,0.1125,1.409090909090909
-rich,Encyclopedie berbere keyword ID,0.5,0.1,0.1,0.2,2.0,0.05,1.125
-rich,France24 topic ID (English),0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
-rich,Marine Regions Geographic ID,0.5,0.45,0.45,0.9,2.0,0.225,5.500000000000002
-rich,Instagram location ID,0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
-rich,production statistics,0.5,0.05,0.05,0.1,2.0,0.025,1.0555555555555556
-rich,bibliography,0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
+rich,urban population,0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
+rich,literate population,0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
+rich,CANTIC ID (former scheme),0.5,0.1,0.1,0.2,2.0,0.05,1.125
 rich,Mastodon instance URL,0.5,0.1,0.1,0.2,2.0,0.05,1.125
-rich,Reddit topic ID,0.5,0.425,0.425,0.85,2.0,0.2125,3.8333333333333326
-rich,has part(s) of the class,0.5,0.05,0.05,0.1,2.0,0.025,1.0555555555555556
-rich,Personality Database profile ID,0.5,0.35,0.35,0.7,2.0,0.175,2.1666666666666665
-rich,LyricsTranslate ID,0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
+rich,described at URL,0.5,0.05,0.05,0.1,2.0,0.025,1.0555555555555556
+rich,CiNii Research ID,0.5,0.375,0.375,0.75,2.0,0.1875,2.5
+rich,BNMM authority ID,0.5,0.125,0.125,0.25,2.0,0.0625,1.1666666666666667
+rich,RegiowikiAT ID,0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
+rich,Lokalhistoriewiki.no ID,0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
+rich,Politika topic ID,0.5,0.125,0.125,0.25,2.0,0.0625,1.1666666666666667
+rich,Colon Classification,0.5,0.45,0.45,0.9,2.0,0.225,5.500000000000002
+rich,Gujarati Vishwakosh entry,0.5,0.125,0.125,0.25,2.0,0.0625,1.1666666666666667
+rich,SNK ID,0.5,0.05,0.05,0.1,2.0,0.025,1.0555555555555556
+rich,France24 topic ID (English),0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
+rich,escutcheon image,0.5,0.05,0.05,0.1,2.0,0.025,1.0555555555555556
+rich,Uppslagsverket Finland ID,0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
+rich,"Image Archive, Herder Institute",0.5,0.175,0.175,0.35,2.0,0.0875,1.2692307692307692
+rich,Theatricalia theatre ID,0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
+rich,age of candidacy,0.5,0.1,0.1,0.2,2.0,0.05,1.125
+rich,German Vikidia ID,0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
+rich,BVMC person ID,0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
+rich,speed limit,0.5,0.125,0.125,0.25,2.0,0.0625,1.1666666666666667
+rich,Gyldendals Teaterleksikon ID,0.5,0.35,0.35,0.7,2.0,0.175,2.1666666666666665
+rich,Hill Museum & Manuscript Library ID,0.5,0.05,0.05,0.1,2.0,0.025,1.0555555555555556
+rich,Thesaurus Sozialwissenschaften ID,0.5,0.225,0.225,0.45,2.0,0.1125,1.409090909090909
+rich,topographic map,0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
+rich,France24 topic ID (Spanish),0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
+rich,PRELIB organization ID,0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
+rich,external data available at URL,0.5,0.1,0.1,0.2,2.0,0.05,1.125
+rich,SBN place ID,0.5,0.175,0.175,0.35,2.0,0.0875,1.2692307692307692
+rich,free/libre open source software development policy URL,0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
+rich,width,0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
+rich,category for honorary citizens of entity,0.5,0.325,0.325,0.65,2.0,0.1625,1.9285714285714288
+rich,Apple Maps ID,0.5,0.275,0.275,0.55,2.0,0.1375,1.6111111111111112
+rich,said to be the same as,0.5,0.05,0.05,0.1,2.0,0.025,1.0555555555555556
+rich,Great Encyclopedia of Cyril and Methodius entry ID,0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
+rich,voltage,0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
+rich,The Independent topic ID,0.5,0.125,0.125,0.25,2.0,0.0625,1.1666666666666667
+rich,Schoenberg Database of Manuscripts place ID,0.5,0.475,0.475,0.95,2.0,0.2375,10.499999999999991
+rich,NSK ID,0.5,0.1,0.1,0.2,2.0,0.05,1.125
+rich,Threads username,0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
+rich,1914-1918-Online ID,0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
+rich,partially coincident with,0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
+rich,Mastodon address,0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
+rich,funder,0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
+rich,has works in the collection,0.5,0.05,0.05,0.1,2.0,0.025,1.0555555555555556
 rich,nickname,0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
-rich,YouTube channel ID,0.5,0.05,0.05,0.1,2.0,0.025,1.0555555555555556
-rich,National Library of Latvia ID,0.5,0.05,0.05,0.1,2.0,0.025,1.0555555555555556
-rich,The Encyclopedia of Science Fiction ID,0.5,0.175,0.175,0.35,2.0,0.0875,1.2692307692307692
-rich,visitor center,0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
-rich,has list,0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
-rich,compulsory education (minimum age),0.5,0.325,0.325,0.65,2.0,0.1625,1.9285714285714288
-rich,UIC numerical country code,0.5,0.375,0.375,0.75,2.0,0.1875,2.5
-rich,Kunstindeks Danmark Artist ID,0.5,0.05,0.05,0.1,2.0,0.025,1.0555555555555556
-rich,SK cinema authority ID,0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
-rich,present in work,0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
+rich,Jewish Encyclopedia ID (Russian),0.5,0.5,0.5,1.0,2.0,0.25,inf
+rich,official symbol,0.5,0.175,0.175,0.35,2.0,0.0875,1.2692307692307692
+rich,Michelin Voyages ID,0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
+rich,Vokrug sveta article ID,0.5,0.075,0.075,0.15,2.0,0.0375,1.0882352941176472
+rich,University of Barcelona authority ID,0.5,0.15,0.15,0.3,2.0,0.075,1.2142857142857144
+rich,patron saint,0.5,0.175,0.175,0.35,2.0,0.0875,1.2692307692307692
+rich,Drevo Encyclopedia ID,0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
+rich,Enzyklopädie des europäischen Ostens ID,0.5,0.125,0.125,0.25,2.0,0.0625,1.1666666666666667
+rich,France24 topic ID (Arabic),0.5,0.1,0.1,0.2,2.0,0.05,1.125
+rich,JewishGen Locality ID,0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
+rich,FactGrid item ID,0.5,0.35,0.35,0.7,2.0,0.175,2.1666666666666665
+rich,Aozora Bunko author ID,0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
+rich,LittleSis organization ID,0.5,0.05,0.05,0.1,2.0,0.025,1.0555555555555556
+rich,NORAF ID,0.5,0.25,0.25,0.5,2.0,0.125,1.5
+rich,Reddit topic ID,0.5,0.425,0.425,0.85,2.0,0.2125,3.8333333333333326
+rich,Gran Enciclopèdia de la Música ID,0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
+rich,Observation.org place ID,0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
+rich,Provenio UUID,0.5,0.3,0.3,0.6,2.0,0.15,1.7499999999999998
+rich,Te Papa agent ID,0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
+rich,KANTO ID,0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
+rich,bibliography,0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
+rich,IGI Global Dictionary ID,0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
+rich,designated as terrorist by,0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
+rich,National Library of Brazil ID,0.5,0.175,0.175,0.35,2.0,0.0875,1.2692307692307692
+rich,Lexicon istoric retic ID,0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
+rich,CONOR.SI ID,0.5,0.075,0.075,0.15,2.0,0.0375,1.0882352941176472
+rich,place name sign,0.5,0.05,0.05,0.1,2.0,0.025,1.0555555555555556
+rich,Gateway to Research organisation ID,0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
+rich,National Gallery of Victoria artist ID,0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
+rich,openMLOL author ID,0.5,0.05,0.05,0.1,2.0,0.025,1.0555555555555556
+rich,logo image,0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
+rich,Treccani's Lessico del XXI Secolo ID,0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
+rich,Swedish Anbytarforum,0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
+rich,right to vote,0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
+rich,Biblioteca Nacional de México ID,0.5,0.125,0.125,0.25,2.0,0.0625,1.1666666666666667
+rich,BVPB authority ID,0.5,0.075,0.075,0.15,2.0,0.0375,1.0882352941176472
+rich,contains the statistical territorial entity,0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
+rich,Open Library ID,0.5,0.125,0.125,0.25,2.0,0.0625,1.1666666666666667
 rich,Flemish Public Libraries ID,0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
 rich,bathymetry image,0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
-rich,Basisklassifikation,0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
-rich,urban population,0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
+rich,Fandom article ID,0.5,0.4,0.4,0.8,2.0,0.2,3.0000000000000004
+rich,coextensive with,0.5,0.075,0.075,0.15,2.0,0.0375,1.0882352941176472
+rich,Omni topic ID,0.5,0.175,0.175,0.35,2.0,0.0875,1.2692307692307692
+rich,Daum Encyclopedia ID,0.5,0.05,0.05,0.1,2.0,0.025,1.0555555555555556
 rich,British Museum thesaurus ID,0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
-rich,German Vikidia ID,0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
-rich,carbon footprint,0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
-rich,Michelin Voyages ID,0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
-rich,nominal GDP per capita,0.5,0.075,0.075,0.15,2.0,0.0375,1.0882352941176472
-rich,place name sign,0.5,0.05,0.05,0.1,2.0,0.025,1.0555555555555556
-rich,name in kana,0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
-rich,TV Tropes ID,0.5,0.3,0.3,0.6,2.0,0.15,1.7499999999999998
-rich,Facebook Places ID,0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
-rich,National Library of Ireland ID,0.5,0.25,0.25,0.5,2.0,0.125,1.5
+rich,perimeter,0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
+rich,Pinterest username,0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
+rich,The Encyclopedia of Fantasy ID,0.5,0.125,0.125,0.25,2.0,0.0625,1.1666666666666667
+rich,AEDA geographic keyword ID,0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
+rich,Hungarian National Namespace place ID (old),0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
+rich,HASC,0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
+rich,TASS Encyclopedia country ID,0.5,0.05,0.05,0.1,2.0,0.025,1.0555555555555556
 rich,Museum of the Jewish People at Beit Hatfutsot ID,0.5,0.05,0.05,0.1,2.0,0.025,1.0555555555555556
+rich,PeakVisor area ID,0.5,0.175,0.175,0.35,2.0,0.0875,1.2692307692307692
+rich,NUTS code,0.5,0.25,0.25,0.5,2.0,0.125,1.5
+rich,TripAdvisor ID,0.5,0.275,0.275,0.55,2.0,0.1375,1.6111111111111112
+rich,World Encyclopedia of Puppetry Arts ID,0.5,0.5,0.5,1.0,2.0,0.25,inf
+rich,YIVO Encyclopedia of Jews in Eastern Europe ID,0.5,0.15,0.15,0.3,2.0,0.075,1.2142857142857144
+rich,Wall Street Journal topic ID,0.5,0.125,0.125,0.25,2.0,0.0625,1.1666666666666667
+rich,bashenc.online ID,0.5,0.225,0.225,0.45,2.0,0.1125,1.409090909090909
+rich,Historical Gazetteer (GOV) ID,0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
+rich,has facility,0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
+rich,illiterate population,0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
+rich,Encyclopaedia Beliana ID,0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
+rich,Encyclopedia of the History of Ukraine ID,0.5,0.425,0.425,0.85,2.0,0.2125,3.8333333333333326
+rich,Vision of Britain place ID,0.5,0.05,0.05,0.1,2.0,0.025,1.0555555555555556
+rich,France24 topic ID (French),0.5,0.175,0.175,0.35,2.0,0.0875,1.2692307692307692
 rich,OpenStreetMap tag or key,0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
-rich,voltage,0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
-rich,shape,0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
-rich,per capita income,0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
-rich,GOST 7.67 cyrillic,0.5,0.05,0.05,0.1,2.0,0.025,1.0555555555555556
-rich,National Library of Iceland ID,0.5,0.15,0.15,0.3,2.0,0.075,1.2142857142857144
+rich,YouTube channel ID,0.5,0.05,0.05,0.1,2.0,0.025,1.0555555555555556
+rich,SK cinema authority ID,0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
+rich,BVMC place ID,0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
+rich,National Library of Latvia ID,0.5,0.05,0.05,0.1,2.0,0.025,1.0555555555555556
+rich,Foursquare City Guide venue ID,0.5,0.125,0.125,0.25,2.0,0.0625,1.1666666666666667
+rich,Lemmy community ID,0.5,0.125,0.125,0.25,2.0,0.0625,1.1666666666666667
+rich,National Library of Ireland ID,0.5,0.25,0.25,0.5,2.0,0.125,1.5
+rich,World History Encyclopedia ID,0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
+rich,SHARE Catalogue author ID,0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
+rich,UN/LOCODE,0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
+rich,vocalized name,0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
+rich,official religion,0.5,0.125,0.125,0.25,2.0,0.0625,1.1666666666666667
+rich,C-SPAN organization ID,0.5,0.175,0.175,0.35,2.0,0.0875,1.2692307692307692
+rich,Isidore scholar ID,0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
+rich,National Library of Luxembourg ID,0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
+rich,coastline,0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
+rich,Naver Encyclopedia ID,0.5,0.05,0.05,0.1,2.0,0.025,1.0555555555555556
+rich,has part(s) of the class,0.5,0.05,0.05,0.1,2.0,0.025,1.0555555555555556
+rich,Slovak National Library (VIAF) ID,0.5,0.05,0.05,0.1,2.0,0.025,1.0555555555555556
+rich,EH.Net Encyclopedia of Economic and Business History ID,0.5,0.05,0.05,0.1,2.0,0.025,1.0555555555555556
+rich,OpenStreetMap zoom level,0.5,0.05,0.05,0.1,2.0,0.025,1.0555555555555556
+rich,vehicles per thousand people,0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
+rich,Australian Statistical Geography 2016 ID,0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
+rich,Twitter topic ID,0.5,0.075,0.075,0.15,2.0,0.0375,1.0882352941176472
 rich,CANTIC ID,0.5,0.15,0.15,0.3,2.0,0.075,1.2142857142857144
 rich,Enciclopedia dei ragazzi ID,0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
-rich,PeakVisor area ID,0.5,0.175,0.175,0.35,2.0,0.0875,1.2692307692307692
-rich,Fandom article ID,0.5,0.4,0.4,0.8,2.0,0.2,3.0000000000000004
-rich,Enciclopedia dell'Arte Medievale ID,0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
-rich,The Encyclopedia of Fantasy ID,0.5,0.125,0.125,0.25,2.0,0.0625,1.1666666666666667
-rich,All the Tropes ID,0.5,0.175,0.175,0.35,2.0,0.0875,1.2692307692307692
-rich,Pontificia Università della Santa Croce ID,0.5,0.15,0.15,0.3,2.0,0.075,1.2142857142857144
-rich,SHARE Catalogue author ID,0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
-rich,BHCL UUID,0.5,0.5,0.5,1.0,2.0,0.25,inf
-rich,AIATSIS Place Thesaurus ID,0.5,0.25,0.25,0.5,2.0,0.125,1.5
-rich,Bing entity ID,0.5,0.175,0.175,0.35,2.0,0.0875,1.2692307692307692
-rich,Treccani's Enciclopedia Dantesca ID,0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
-rich,RERO ID (obsolete),0.5,0.35,0.35,0.7,2.0,0.175,2.1666666666666665
-rich,elevation above sea level,0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
-rich,DPLA subject term,0.5,0.125,0.125,0.25,2.0,0.0625,1.1666666666666667
-rich,Foursquare City Guide venue ID,0.5,0.125,0.125,0.25,2.0,0.0625,1.1666666666666667
-rich,Fandom wiki ID,0.5,0.325,0.325,0.65,2.0,0.1625,1.9285714285714288
-rich,said to be the same as,0.5,0.05,0.05,0.1,2.0,0.025,1.0555555555555556
-rich,EH.Net Encyclopedia of Economic and Business History ID,0.5,0.05,0.05,0.1,2.0,0.025,1.0555555555555556
-rich,Gran Enciclopèdia de la Música ID,0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
-rich,NUKAT ID,0.5,0.05,0.05,0.1,2.0,0.025,1.0555555555555556
-rich,Gateway to Research organisation ID,0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
-rich,Know Your Meme ID,0.5,0.175,0.175,0.35,2.0,0.0875,1.2692307692307692
-rich,France24 topic ID (Spanish),0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
-rich,illiterate population,0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
-rich,retirement age,0.5,0.275,0.275,0.55,2.0,0.1375,1.6111111111111112
-rich,location,0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
-rich,contains the statistical territorial entity,0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
-rich,Lemmy community ID,0.5,0.075,0.075,0.15,2.0,0.0375,1.0882352941176472
-rich,Colon Classification,0.5,0.45,0.45,0.9,2.0,0.225,5.500000000000002
-rich,Giant Bomb ID,0.5,0.425,0.425,0.85,2.0,0.2125,3.8333333333333326
-rich,perimeter,0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
-rich,UN/LOCODE,0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
-rich,Naver Encyclopedia ID,0.5,0.05,0.05,0.1,2.0,0.025,1.0555555555555556
-rich,CiNii Research ID,0.5,0.375,0.375,0.75,2.0,0.1875,2.5
-rich,Golden ID,0.5,0.375,0.375,0.75,2.0,0.1875,2.5
-rich,National Library of Korea ID,0.5,0.175,0.175,0.35,2.0,0.0875,1.2692307692307692
-rich,openMLOL author ID,0.5,0.05,0.05,0.1,2.0,0.025,1.0555555555555556
-rich,France24 topic ID (Arabic),0.5,0.1,0.1,0.2,2.0,0.05,1.125
-rich,Finnish national bibliography corporate name ID,0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
-rich,National Gallery of Victoria artist ID,0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
-rich,Lokalhistoriewiki.no ID,0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
-rich,Internet Encyclopedia of Ukraine ID,0.5,0.05,0.05,0.1,2.0,0.025,1.0555555555555556
-rich,NORAF ID,0.5,0.25,0.25,0.5,2.0,0.125,1.5
-rich,contains,0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
-rich,AniDB tag ID,0.5,0.075,0.075,0.15,2.0,0.0375,1.0882352941176472
-rich,coordinates of geographic center,0.5,0.15,0.15,0.3,2.0,0.075,1.2142857142857144
-rich,WOEID,0.5,0.175,0.175,0.35,2.0,0.0875,1.2692307692307692
-rich,Australian National Maritime Museum person ID,0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
-rich,1914-1918-Online ID,0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
-rich,list of monuments,0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
-rich,Google+ ID,0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
-rich,Encyclopedia of the History of Ukraine ID,0.5,0.425,0.425,0.85,2.0,0.2125,3.8333333333333326
-rich,TDV İslam Ansiklopedisi ID,0.5,0.35,0.35,0.7,2.0,0.175,2.1666666666666665
-rich,RegiowikiAT ID,0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
-rich,France24 topic ID (French),0.5,0.175,0.175,0.35,2.0,0.0875,1.2692307692307692
-rich,photosphere image,0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
-rich,J-GLOBAL ID,0.5,0.075,0.075,0.15,2.0,0.0375,1.0882352941176472
-rich,official religion,0.5,0.125,0.125,0.25,2.0,0.0625,1.1666666666666667
-rich,escutcheon image,0.5,0.05,0.05,0.1,2.0,0.025,1.0555555555555556
-rich,number of deaths,0.5,0.05,0.05,0.1,2.0,0.025,1.0555555555555556
-rich,Great Ukrainian Encyclopedia Online ID,0.5,0.075,0.075,0.15,2.0,0.0375,1.0882352941176472
-rich,CiNii Books author ID,0.5,0.375,0.375,0.75,2.0,0.1875,2.5
-rich,rural population,0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
-rich,has facility,0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
-rich,LocalWiki ID,0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
-rich,Ávvir topic ID,0.5,0.375,0.375,0.75,2.0,0.1875,2.5
-rich,Lexicon istoric retic ID,0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
-rich,Jewish Encyclopedia Daat ID,0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
-rich,number of households,0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
-rich,WordLift URL,0.5,0.075,0.075,0.15,2.0,0.0375,1.0882352941176472
-rich,Project Gutenberg author ID,0.5,0.075,0.075,0.15,2.0,0.0375,1.0882352941176472
-rich,Slovak National Library (VIAF) ID,0.5,0.05,0.05,0.1,2.0,0.025,1.0555555555555556
-rich,"Image Archive, Herder Institute",0.5,0.175,0.175,0.35,2.0,0.0875,1.2692307692307692
-rich,has boundary,0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
-rich,SAPA ID,0.5,0.45,0.45,0.9,2.0,0.225,5.500000000000002
-rich,GSS code (2011),0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
-rich,Österreichisches Musiklexikon Online ID,0.5,0.125,0.125,0.25,2.0,0.0625,1.1666666666666667
-rich,official symbol,0.5,0.175,0.175,0.35,2.0,0.0875,1.2692307692307692
-rich,TikTok username,0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
-rich,SNOMED CT ID,0.5,0.15,0.15,0.3,2.0,0.075,1.2142857142857144
-rich,Visuotinė lietuvių enciklopedija ID,0.5,0.1,0.1,0.2,2.0,0.05,1.125
-rich,Le Monde ID,0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
-rich,Wikitribune category,0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
-rich,Observation.org place ID,0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
-rich,Te Papa agent ID,0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
-rich,NCI Thesaurus ID,0.5,0.15,0.15,0.3,2.0,0.075,1.2142857142857144
-rich,Iconclass notation,0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
-rich,Canadian Encyclopedia article ID,0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
-rich,Encyclopedia of Australian Science ID,0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
-rich,University of Barcelona authority ID,0.5,0.15,0.15,0.3,2.0,0.075,1.2142857142857144
-rich,seal image,0.5,0.125,0.125,0.25,2.0,0.0625,1.1666666666666667
-rich,Canadiana Authorities ID (former scheme),0.5,0.175,0.175,0.35,2.0,0.0875,1.2692307692307692
-rich,BNMM authority ID,0.5,0.125,0.125,0.25,2.0,0.0625,1.1666666666666667
-rich,SNK ID,0.5,0.05,0.05,0.1,2.0,0.025,1.0555555555555556
-rich,CONOR.SI ID,0.5,0.075,0.075,0.15,2.0,0.0375,1.0882352941176472
-rich,Hiking Project area ID,0.5,0.05,0.05,0.1,2.0,0.025,1.0555555555555556
-rich,BVMC person ID,0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
-rich,National Library of Brazil ID,0.5,0.175,0.175,0.35,2.0,0.0875,1.2692307692307692
-rich,speed limit,0.5,0.125,0.125,0.25,2.0,0.0625,1.1666666666666667
-rich,FactGrid item ID,0.5,0.35,0.35,0.7,2.0,0.175,2.1666666666666665
-rich,Pinterest username,0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
-rich,HASC,0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
-rich,Aozora Bunko author ID,0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
-rich,International Jewish Cemetery Project ID,0.5,0.05,0.05,0.1,2.0,0.025,1.0555555555555556
-rich,Liber Liber author ID,0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
-rich,Babelio author ID,0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
-rich,right to vote,0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
-rich,KANTO ID,0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
-rich,Politika topic ID,0.5,0.075,0.075,0.15,2.0,0.0375,1.0882352941176472
-rich,Dharma Drum Institute of Liberal Arts place ID,0.5,0.075,0.075,0.15,2.0,0.0375,1.0882352941176472
-rich,route map,0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
-rich,Online Books Page author ID,0.5,0.15,0.15,0.3,2.0,0.075,1.2142857142857144
-rich,age of candidacy,0.5,0.1,0.1,0.2,2.0,0.05,1.125
-rich,length,0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
-rich,Drevo Encyclopedia ID,0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
 rich,Joconde discovery ID,0.5,0.275,0.275,0.55,2.0,0.1375,1.6111111111111112
-rich,CCAB ID,0.5,0.15,0.15,0.3,2.0,0.075,1.2142857142857144
-rich,Thesaurus Sozialwissenschaften ID,0.5,0.225,0.225,0.45,2.0,0.1125,1.409090909090909
-rich,Baidu Tieba name,0.5,0.4,0.4,0.8,2.0,0.2,3.0000000000000004
-rich,DBC author ID,0.5,0.05,0.05,0.1,2.0,0.025,1.0555555555555556
-rich,WikiTree category or space,0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
-rich,Criminological Thesaurus ID,0.5,0.1,0.1,0.2,2.0,0.05,1.125
-rich,award received,0.5,0.1,0.1,0.2,2.0,0.05,1.125
-rich,Wall Street Journal topic ID,0.5,0.125,0.125,0.25,2.0,0.0625,1.1666666666666667
-rich,nighttime view,0.5,0.125,0.125,0.25,2.0,0.0625,1.1666666666666667
-rich,CANTIC ID (former scheme),0.5,0.1,0.1,0.2,2.0,0.05,1.125
+rich,National Library of Iceland ID,0.5,0.15,0.15,0.3,2.0,0.075,1.2142857142857144
+rich,LyricsTranslate ID,0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
+rich,seal image,0.5,0.125,0.125,0.25,2.0,0.0625,1.1666666666666667
+rich,social media followers,0.5,0.25,0.25,0.5,2.0,0.125,1.5
+rich,SNOMED CT ID,0.5,0.15,0.15,0.3,2.0,0.075,1.2142857142857144
+rich,Bing entity ID,0.5,0.175,0.175,0.35,2.0,0.0875,1.2692307692307692
+rich,RERO ID (obsolete),0.5,0.35,0.35,0.7,2.0,0.175,2.1666666666666665
+rich,Radio France person ID,0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
+rich,TED topic ID,0.5,0.05,0.05,0.1,2.0,0.025,1.0555555555555556
+rich,AIATSIS Place Thesaurus ID,0.5,0.25,0.25,0.5,2.0,0.125,1.5
+rich,Kunstindeks Danmark Artist ID,0.5,0.05,0.05,0.1,2.0,0.025,1.0555555555555556
+rich,subclass of,0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
+rich,contains,0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
+rich,Canadiana Authorities ID (former scheme),0.5,0.175,0.175,0.35,2.0,0.0875,1.2692307692307692
+rich,Project Gutenberg author ID,0.5,0.075,0.075,0.15,2.0,0.0375,1.0882352941176472
+rich,Australian National Maritime Museum person ID,0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
+rich,Mindat locality ID,0.5,0.275,0.275,0.55,2.0,0.1375,1.6111111111111112
+rich,J-GLOBAL ID,0.5,0.075,0.075,0.15,2.0,0.0375,1.0882352941176472
+rich,Trading Card Database person ID,0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
+rich,has boundary,0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
+rich,PARES ID,0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
+rich,name,0.5,0.2,0.2,0.4,2.0,0.1,1.3333333333333335
+rich,BHL creator ID,0.5,0.125,0.125,0.25,2.0,0.0625,1.1666666666666667
+rich,production statistics,0.5,0.05,0.05,0.1,2.0,0.025,1.0555555555555556
+rich,list of monuments,0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
+rich,Canadian Encyclopedia article ID,0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
+rich,Personality Database profile ID,0.5,0.35,0.35,0.7,2.0,0.175,2.1666666666666665
+rich,CNA topic ID,0.5,0.4,0.4,0.8,2.0,0.2,3.0000000000000004
+rich,mean age,0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
+rich,Liber Liber author ID,0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
+rich,name in kana,0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
+rich,length,0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
+rich,WOEID,0.5,0.175,0.175,0.35,2.0,0.0875,1.2692307692307692
+rich,LocalWiki ID,0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
+rich,central government debt as a percent of GDP,0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
+rich,rural population,0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
+rich,Global Anabaptist Mennonite Encyclopedia Online ID,0.5,0.275,0.275,0.55,2.0,0.1375,1.6111111111111112
+rich,Visuotinė lietuvių enciklopedija ID,0.5,0.1,0.1,0.2,2.0,0.05,1.125
+rich,Babelio author ID,0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
 rich,total exports,0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
-rich,median income,0.5,0.325,0.325,0.65,2.0,0.1625,1.9285714285714288
-rich,SportsLogos.net team ID,0.5,0.05,0.05,0.1,2.0,0.025,1.0555555555555556
-rich,Apple Maps ID,0.5,0.275,0.275,0.55,2.0,0.1375,1.6111111111111112
-rich,ISBN identifier group,0.5,0.1,0.1,0.2,2.0,0.05,1.125
+rich,native language,0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
+rich,NCI Thesaurus ID,0.5,0.15,0.15,0.3,2.0,0.075,1.2142857142857144
+rich,Marine Regions Geographic ID,0.5,0.45,0.45,0.9,2.0,0.225,5.500000000000002
+rich,Urban Electric Transit country ID,0.5,0.5,0.5,1.0,2.0,0.25,inf
 rich,inflation rate,0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
-rich,National Library of Luxembourg ID,0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
-rich,GDP (PPP),0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
-rich,railway traffic side,0.5,0.45,0.45,0.9,2.0,0.225,5.500000000000002
-rich,width,0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
-rich,vehicles per thousand people,0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
-rich,patron saint,0.5,0.175,0.175,0.35,2.0,0.0875,1.2692307692307692
+rich,compulsory education (minimum age),0.5,0.325,0.325,0.65,2.0,0.1625,1.9285714285714288
+rich,GS1 country code,0.5,0.5,0.5,1.0,2.0,0.25,inf
+rich,International Jewish Cemetery Project ID,0.5,0.05,0.05,0.1,2.0,0.025,1.0555555555555556
+rich,coordinates of geographic center,0.5,0.15,0.15,0.3,2.0,0.075,1.2142857142857144
+rich,visitor center,0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
+rich,Online Books Page author ID,0.5,0.15,0.15,0.3,2.0,0.075,1.2142857142857144
+rich,OpenAlex ID,0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
+rich,Enciclopedia dell'Arte Medievale ID,0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
+rich,Encyclopedie berbere keyword ID,0.5,0.1,0.1,0.2,2.0,0.05,1.125
+rich,location,0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
+rich,Gregorian calendar start date,0.5,0.2,0.2,0.4,2.0,0.1,1.3333333333333335
+rich,participant in,0.5,0.375,0.375,0.75,2.0,0.1875,2.5
+rich,per capita income,0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
+rich,age of consent,0.5,0.125,0.125,0.25,2.0,0.0625,1.1666666666666667
 rich,Facebook ID,0.5,0.125,0.125,0.25,2.0,0.0625,1.1666666666666667
-rich,described at URL,0.5,0.05,0.05,0.1,2.0,0.025,1.0555555555555556
+rich,Great Ukrainian Encyclopedia Online ID,0.5,0.075,0.075,0.15,2.0,0.0375,1.0882352941176472
+rich,NUKAT ID,0.5,0.05,0.05,0.1,2.0,0.025,1.0555555555555556
+rich,Instagram username,0.5,0.15,0.15,0.3,2.0,0.075,1.2142857142857144
+rich,route map,0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
+rich,Österreichisches Musiklexikon Online ID,0.5,0.125,0.125,0.25,2.0,0.0625,1.1666666666666667
+rich,Le Monde ID,0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
+rich,Golden ID,0.5,0.375,0.375,0.75,2.0,0.1875,2.5
+rich,Encyclopaedia of Islam (third edition) ID,0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
+rich,CCAB ID,0.5,0.15,0.15,0.3,2.0,0.075,1.2142857142857144
+rich,Encyclopedia of Australian Science ID,0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
+rich,annual number of weddings,0.5,0.075,0.075,0.15,2.0,0.0375,1.0882352941176472
+rich,retirement age,0.5,0.275,0.275,0.55,2.0,0.1375,1.6111111111111112
+rich,Finnish national bibliography corporate name ID,0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
+rich,GSS code (2011),0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
+rich,Giant Bomb ID,0.5,0.425,0.425,0.85,2.0,0.2125,3.8333333333333326
+rich,minimum wage,0.5,0.05,0.05,0.1,2.0,0.025,1.0555555555555556
+rich,ISBN identifier group,0.5,0.1,0.1,0.2,2.0,0.05,1.125
+rich,nominal GDP per capita,0.5,0.075,0.075,0.15,2.0,0.0375,1.0882352941176472
+rich,median income,0.5,0.325,0.325,0.65,2.0,0.1625,1.9285714285714288
+rich,elevation above sea level,0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
+rich,TikTok username,0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
 rich,Gynopedia ID,0.5,0.375,0.375,0.75,2.0,0.1875,2.5
+rich,Natural Atlas ID,0.5,0.075,0.075,0.15,2.0,0.0375,1.0882352941176472
+rich,TDV İslam Ansiklopedisi ID,0.5,0.35,0.35,0.7,2.0,0.175,2.1666666666666665
+rich,Instagram location ID,0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
+rich,Jewish Encyclopedia Daat ID,0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
+rich,Google+ ID,0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
+rich,number of households,0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
+rich,SAPA ID,0.5,0.45,0.45,0.9,2.0,0.225,5.500000000000002
+rich,number of deaths,0.5,0.05,0.05,0.1,2.0,0.025,1.0555555555555556
+rich,Hrvatska enciklopedija ID,0.5,0.325,0.325,0.65,2.0,0.1625,1.9285714285714288
+rich,The Encyclopedia of Science Fiction ID,0.5,0.15,0.15,0.3,2.0,0.075,1.2142857142857144
+rich,has list,0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
+rich,Hiking Project area ID,0.5,0.05,0.05,0.1,2.0,0.025,1.0555555555555556
+rich,Know Your Meme ID,0.5,0.175,0.175,0.35,2.0,0.0875,1.2692307692307692
+rich,poverty incidence,0.5,0.075,0.075,0.15,2.0,0.0375,1.0882352941176472
+rich,British Museum place ID,0.5,0.125,0.125,0.25,2.0,0.0625,1.1666666666666667
+rich,SportsLogos.net team ID,0.5,0.05,0.05,0.1,2.0,0.025,1.0555555555555556
+rich,religion or worldview,0.5,0.075,0.075,0.15,2.0,0.0375,1.0882352941176472
+rich,Dharma Drum Institute of Liberal Arts place ID,0.5,0.075,0.075,0.15,2.0,0.0375,1.0882352941176472
+rich,UIC numerical country code,0.5,0.375,0.375,0.75,2.0,0.1875,2.5
+rich,DBC author ID,0.5,0.05,0.05,0.1,2.0,0.025,1.0555555555555556
+rich,CiNii Books author ID,0.5,0.375,0.375,0.75,2.0,0.1875,2.5
+rich,Pontificia Università della Santa Croce ID,0.5,0.15,0.15,0.3,2.0,0.075,1.2142857142857144
+rich,Media Arts Database ID,0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
+rich,GOST 7.67 cyrillic,0.5,0.05,0.05,0.1,2.0,0.025,1.0555555555555556
+rich,symogih.org ID,0.5,0.05,0.05,0.1,2.0,0.025,1.0555555555555556
+rich,Iranica ID,0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
+rich,railway traffic side,0.5,0.45,0.45,0.9,2.0,0.225,5.500000000000002
+rich,Mapy.cz ID,0.5,0.25,0.25,0.5,2.0,0.125,1.5
+rich,studied by,0.5,0.25,0.25,0.5,2.0,0.125,1.5
+rich,WikiTree category or space,0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
+rich,award received,0.5,0.1,0.1,0.2,2.0,0.05,1.125
+rich,nighttime view,0.5,0.125,0.125,0.25,2.0,0.0625,1.1666666666666667
 rich,PACTOLS thesaurus ID,0.5,0.375,0.375,0.75,2.0,0.1875,2.5
-rich,Treccani's Lessico del XXI Secolo ID,0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
-rich,Happy Planet Index score,0.5,0.525,0.5,1.0,1.9047619047619047,0.2375,inf
-rich,Democracy Index,0.5,0.525,0.5,1.0,1.9047619047619047,0.2375,inf
-rich,HDS ID,0.5,0.525,0.5,1.0,1.9047619047619047,0.2375,inf
-rich,open data portal,0.5,0.525,0.5,1.0,1.9047619047619047,0.2375,inf
+rich,Criminological Thesaurus ID,0.5,0.1,0.1,0.2,2.0,0.05,1.125
+rich,BDCYL authority ID,0.5,0.075,0.075,0.15,2.0,0.0375,1.0882352941176472
+rich,time of earliest written record,0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
+rich,shape,0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
+rich,Semantic Scholar author ID,0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
+rich,panoramic view,0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
+rich,Academy Awards Database nominee ID,0.5,0.25,0.25,0.5,2.0,0.125,1.5
+rich,Trismegistos Geo ID,0.5,0.15,0.15,0.3,2.0,0.075,1.2142857142857144
+rich,Basisklassifikation,0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
+rich,present in work,0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
+rich,SBN author ID,0.5,0.05,0.05,0.1,2.0,0.025,1.0555555555555556
+rich,Facebook Places ID,0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
+rich,WordLift URL,0.5,0.075,0.075,0.15,2.0,0.0375,1.0882352941176472
+rich,Disney A to Z ID,0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
+rich,Open Civic Data Division ID,0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
+rich,Wikitribune category,0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
+rich,GDP (PPP),0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
+rich,photosphere image,0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
+rich,Ávvir topic ID,0.5,0.375,0.375,0.75,2.0,0.1875,2.5
+rich,carbon footprint,0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
+rich,AniDB tag ID,0.5,0.075,0.075,0.15,2.0,0.0375,1.0882352941176472
+rich,Internet Encyclopedia of Ukraine ID,0.5,0.05,0.05,0.1,2.0,0.025,1.0555555555555556
+rich,drainage basin,0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
+rich,Treccani's Enciclopedia Dantesca ID,0.5,0.025,0.025,0.05,2.0,0.0125,1.0263157894736843
 rich,Guardian topic ID,0.5,0.525,0.5,1.0,1.9047619047619047,0.2375,inf
-rich,unemployment rate,0.5,0.5,0.475,0.95,1.9,0.22499999999999998,9.999999999999991
+rich,Democracy Index,0.5,0.525,0.5,1.0,1.9047619047619047,0.2375,inf
+rich,category of people buried here,0.5,0.525,0.5,1.0,1.9047619047619047,0.2375,inf
+rich,HDS ID,0.5,0.525,0.5,1.0,1.9047619047619047,0.2375,inf
+rich,Happy Planet Index score,0.5,0.525,0.5,1.0,1.9047619047619047,0.2375,inf
+rich,open data portal,0.5,0.525,0.5,1.0,1.9047619047619047,0.2375,inf
 rich,Zhihu topic ID,0.5,0.5,0.475,0.95,1.9,0.22499999999999998,9.999999999999991
+rich,unemployment rate,0.5,0.5,0.475,0.95,1.9,0.22499999999999998,9.999999999999991
 rich,Larousse ID,0.5,0.475,0.45,0.9,1.8947368421052633,0.21250000000000002,5.250000000000002
-rich,suicide rate,0.5,0.475,0.45,0.9,1.8947368421052633,0.21250000000000002,5.250000000000002
 rich,Armeniapedia ID,0.5,0.475,0.45,0.9,1.8947368421052633,0.21250000000000002,5.250000000000002
+rich,suicide rate,0.5,0.475,0.45,0.9,1.8947368421052633,0.21250000000000002,5.250000000000002
+rich,Open Library subject ID,0.5,0.45,0.425,0.85,1.8888888888888888,0.19999999999999998,3.6666666666666665
 rich,Süddeutsche Zeitung topic ID,0.5,0.45,0.425,0.85,1.8888888888888888,0.19999999999999998,3.6666666666666665
-rich,public holiday,0.5,0.45,0.425,0.85,1.8888888888888888,0.19999999999999998,3.6666666666666665
 rich,Dagens Nyheter topic ID,0.5,0.45,0.425,0.85,1.8888888888888888,0.19999999999999998,3.6666666666666665
-rich,CNA topic ID,0.5,0.425,0.4,0.8,1.8823529411764708,0.18750000000000003,2.8750000000000004
+rich,public holiday,0.5,0.45,0.425,0.85,1.8888888888888888,0.19999999999999998,3.6666666666666665
 rich,AGROVOC ID,0.5,0.4,0.375,0.75,1.875,0.175,2.4
-rich,Open Library subject ID,0.5,0.4,0.375,0.75,1.875,0.175,2.4
-rich,Google Maps Customer ID,0.5,0.35,0.325,0.65,1.8571428571428574,0.15000000000000002,1.8571428571428574
+rich,location map,0.5,0.375,0.35,0.7,1.8666666666666665,0.16249999999999998,2.083333333333333
+rich,compulsory education (maximum age),0.5,0.35,0.325,0.65,1.8571428571428574,0.15000000000000002,1.8571428571428574
 rich,significant event,0.5,0.35,0.325,0.65,1.8571428571428574,0.15000000000000002,1.8571428571428574
+rich,Google Maps Customer ID,0.5,0.35,0.325,0.65,1.8571428571428574,0.15000000000000002,1.8571428571428574
 rich,ethnic group,0.5,0.325,0.3,0.6,1.846153846153846,0.13749999999999998,1.6875
 rich,relief location map,0.5,0.3,0.275,0.55,1.8333333333333335,0.12500000000000003,1.5555555555555556
 rich,Basque Vikidia ID,0.5,0.3,0.275,0.55,1.8333333333333335,0.12500000000000003,1.5555555555555556
-rich,age of majority,0.5,0.55,0.5,1.0,1.8181818181818181,0.22499999999999998,inf
-rich,NE.se ID,0.5,0.55,0.5,1.0,1.8181818181818181,0.22499999999999998,inf
 rich,Joconde location ID,0.5,0.55,0.5,1.0,1.8181818181818181,0.22499999999999998,inf
+rich,age of majority,0.5,0.55,0.5,1.0,1.8181818181818181,0.22499999999999998,inf
+rich,minimum temperature record,0.5,0.275,0.25,0.5,1.8181818181818181,0.11249999999999999,1.45
 rich,CAB ID,0.5,0.275,0.25,0.5,1.8181818181818181,0.11249999999999999,1.45
-rich,NicoNicoPedia ID,0.5,0.275,0.25,0.5,1.8181818181818181,0.11249999999999999,1.45
-rich,category of people buried here,0.5,0.55,0.5,1.0,1.8181818181818181,0.22499999999999998,inf
 rich,iDAI.gazetteer ID,0.5,0.525,0.475,0.95,1.8095238095238093,0.21249999999999997,9.499999999999991
-rich,maintained by WikiProject,0.5,0.5,0.45,0.9,1.8,0.2,5.000000000000001
+rich,Twitter username,0.5,0.25,0.225,0.45,1.8,0.1,1.3636363636363635
 rich,main regulatory text,0.5,0.25,0.225,0.45,1.8,0.1,1.3636363636363635
-rich,RationalWiki ID,0.5,0.25,0.225,0.45,1.8,0.1,1.3636363636363635
 rich,English Vikidia ID,0.5,0.5,0.45,0.9,1.8,0.2,5.000000000000001
+rich,RationalWiki ID,0.5,0.25,0.225,0.45,1.8,0.1,1.3636363636363635
 rich,Portuguese National Library author ID,0.5,0.25,0.225,0.45,1.8,0.1,1.3636363636363635
-rich,X username,0.5,0.25,0.225,0.45,1.8,0.1,1.3636363636363635
+rich,maintained by WikiProject,0.5,0.5,0.45,0.9,1.8,0.2,5.000000000000001
 rich,ASC Leiden Thesaurus ID,0.5,0.475,0.425,0.85,1.7894736842105263,0.1875,3.4999999999999996
 rich,trunk prefix,0.5,0.475,0.425,0.85,1.7894736842105263,0.1875,3.4999999999999996
+rich,maximum temperature record,0.5,0.225,0.2,0.4,1.777777777777778,0.08750000000000001,1.2916666666666667
+rich,water as percent of area,0.5,0.225,0.2,0.4,1.777777777777778,0.08750000000000001,1.2916666666666667
+rich,ICPSR Geographic Names Thesaurus ID,0.5,0.225,0.2,0.4,1.777777777777778,0.08750000000000001,1.2916666666666667
 rich,Al-Jazeera topic ID,0.5,0.225,0.2,0.4,1.777777777777778,0.08750000000000001,1.2916666666666667
-rich,MeSH term ID,0.5,0.225,0.2,0.4,1.777777777777778,0.08750000000000001,1.2916666666666667
-rich,motto,0.5,0.225,0.2,0.4,1.777777777777778,0.08750000000000001,1.2916666666666667
 rich,UMLS CUI,0.5,0.425,0.375,0.75,1.7647058823529411,0.1625,2.3
 rich,Italian Vikidia ID,0.5,0.425,0.375,0.75,1.7647058823529411,0.1625,2.3
-rich,Stack Exchange tag,0.5,0.2,0.175,0.35,1.7499999999999998,0.07499999999999998,1.2307692307692308
-rich,location map,0.5,0.4,0.35,0.7,1.7499999999999998,0.14999999999999997,1.9999999999999996
 rich,BTI Status Index,0.5,0.2,0.175,0.35,1.7499999999999998,0.07499999999999998,1.2307692307692308
-rich,ICPSR Geographic Names Thesaurus ID,0.5,0.2,0.175,0.35,1.7499999999999998,0.07499999999999998,1.2307692307692308
 rich,Vatican Library VcBA ID,0.5,0.2,0.175,0.35,1.7499999999999998,0.07499999999999998,1.2307692307692308
 rich,BTI Governance Index,0.5,0.2,0.175,0.35,1.7499999999999998,0.07499999999999998,1.2307692307692308
+rich,Stack Exchange tag,0.5,0.2,0.175,0.35,1.7499999999999998,0.07499999999999998,1.2307692307692308
+rich,motto,0.5,0.2,0.175,0.35,1.7499999999999998,0.07499999999999998,1.2307692307692308
 rich,Der Spiegel topic ID,0.5,0.575,0.5,1.0,1.7391304347826089,0.21250000000000002,inf
-rich,compulsory education (maximum age),0.5,0.375,0.325,0.65,1.7333333333333334,0.1375,1.7857142857142858
+rich,topic's main template,0.5,0.575,0.5,1.0,1.7391304347826089,0.21250000000000002,inf
 rich,RKD thesaurus ID,0.5,0.55,0.475,0.95,1.727272727272727,0.19999999999999996,8.999999999999991
 rich,Google News topics ID,0.5,0.35,0.3,0.6,1.7142857142857144,0.125,1.625
-rich,Armenian Vikidia ID,0.5,0.175,0.15,0.3,1.7142857142857144,0.0625,1.1785714285714286
-rich,ScienceDirect topic ID,0.5,0.175,0.15,0.3,1.7142857142857144,0.0625,1.1785714285714286
-rich,National Library of Lithuania ID,0.5,0.175,0.15,0.3,1.7142857142857144,0.0625,1.1785714285714286
-rich,National Library of Chile ID,0.5,0.175,0.15,0.3,1.7142857142857144,0.0625,1.1785714285714286
 rich,GADM ID,0.5,0.35,0.3,0.6,1.7142857142857144,0.125,1.625
+rich,National Library of Lithuania ID,0.5,0.175,0.15,0.3,1.7142857142857144,0.0625,1.1785714285714286
+rich,Armenian Vikidia ID,0.5,0.175,0.15,0.3,1.7142857142857144,0.0625,1.1785714285714286
+rich,National Library of Chile ID,0.5,0.175,0.15,0.3,1.7142857142857144,0.0625,1.1785714285714286
 rich,"has seal, badge, or sigil",0.5,0.175,0.15,0.3,1.7142857142857144,0.0625,1.1785714285714286
+rich,ScienceDirect topic ID,0.5,0.175,0.15,0.3,1.7142857142857144,0.0625,1.1785714285714286
 rich,edition humboldt digital ID,0.5,0.525,0.45,0.9,1.7142857142857142,0.1875,4.750000000000001
-rich,NALT ID,0.5,0.525,0.45,0.9,1.7142857142857142,0.1875,4.750000000000001
+rich,highest judicial authority,0.5,0.5,0.425,0.85,1.7,0.175,3.333333333333333
 rich,PM20 geo code,0.5,0.5,0.425,0.85,1.7,0.175,3.333333333333333
 rich,De Agostini ID,0.5,0.325,0.275,0.55,1.6923076923076923,0.11250000000000002,1.5000000000000002
-rich,WorldCat Entities ID,0.5,0.475,0.4,0.8,1.6842105263157896,0.16250000000000003,2.625000000000001
-rich,aerial view,0.5,0.15,0.125,0.25,1.6666666666666667,0.05,1.1333333333333333
-rich,Nomisma ID,0.5,0.15,0.125,0.25,1.6666666666666667,0.05,1.1333333333333333
-rich,GNS Unique Feature ID,0.5,0.15,0.125,0.25,1.6666666666666667,0.05,1.1333333333333333
-rich,Britannica Kids kids level article ID,0.5,0.15,0.125,0.25,1.6666666666666667,0.05,1.1333333333333333
-rich,minimum temperature record,0.5,0.3,0.25,0.5,1.6666666666666667,0.1,1.4
-rich,Britannica Kids scholars level article ID,0.5,0.15,0.125,0.25,1.6666666666666667,0.05,1.1333333333333333
-rich,Catholic Encyclopedia ID,0.5,0.3,0.25,0.5,1.6666666666666667,0.1,1.4
 rich,Britannica Kids students level article ID,0.5,0.15,0.125,0.25,1.6666666666666667,0.05,1.1333333333333333
-rich,topic's main template,0.5,0.6,0.5,1.0,1.6666666666666667,0.2,inf
+rich,GNS Unique Feature ID,0.5,0.15,0.125,0.25,1.6666666666666667,0.05,1.1333333333333333
+rich,Britannica Kids scholars level article ID,0.5,0.15,0.125,0.25,1.6666666666666667,0.05,1.1333333333333333
+rich,Nomisma ID,0.5,0.15,0.125,0.25,1.6666666666666667,0.05,1.1333333333333333
+rich,Britannica Kids kids level article ID,0.5,0.15,0.125,0.25,1.6666666666666667,0.05,1.1333333333333333
+rich,BBC Things ID,0.5,0.6,0.5,1.0,1.6666666666666667,0.2,inf
+rich,aerial view,0.5,0.15,0.125,0.25,1.6666666666666667,0.05,1.1333333333333333
+rich,Libraries Australia ID,0.5,0.45,0.375,0.75,1.6666666666666665,0.15,2.2
 rich,GitHub topic,0.5,0.575,0.475,0.95,1.6521739130434783,0.1875,8.499999999999993
 rich,DR topic ID,0.5,0.575,0.475,0.95,1.6521739130434783,0.1875,8.499999999999993
 rich,Wolfram Language entity code,0.5,0.425,0.35,0.7,1.6470588235294117,0.13749999999999998,1.9166666666666663
-rich,Le Figaro tag ID,0.5,0.275,0.225,0.45,1.6363636363636362,0.0875,1.3181818181818181
 rich,spoken text audio,0.5,0.275,0.225,0.45,1.6363636363636362,0.0875,1.3181818181818181
 rich,SELIBR ID,0.5,0.275,0.225,0.45,1.6363636363636362,0.0875,1.3181818181818181
-rich,highest judicial authority,0.5,0.525,0.425,0.85,1.6190476190476188,0.16249999999999998,3.166666666666666
+rich,Le Figaro tag ID,0.5,0.275,0.225,0.45,1.6363636363636362,0.0875,1.3181818181818181
+rich,located in or next to body of water,0.5,0.55,0.45,0.9,1.6363636363636362,0.175,4.500000000000001
+rich,MeSH tree code,0.5,0.4,0.325,0.65,1.625,0.125,1.7142857142857144
 rich,Biblioteca Nacional de España ID,0.5,0.525,0.425,0.85,1.6190476190476188,0.16249999999999998,3.166666666666666
-rich,licence plate code,0.5,0.625,0.5,1.0,1.6,0.1875,inf
-rich,BBC Things ID,0.5,0.625,0.5,1.0,1.6,0.1875,inf
-rich,maximum temperature record,0.5,0.25,0.2,0.4,1.6,0.07500000000000001,1.25
-rich,Spanish Vikidia ID,0.5,0.625,0.5,1.0,1.6,0.1875,inf
-rich,water as percent of area,0.5,0.25,0.2,0.4,1.6,0.07500000000000001,1.25
-rich,Proleksis enciklopedija ID,0.5,0.125,0.1,0.2,1.6,0.037500000000000006,1.09375
-rich,literacy rate,0.5,0.25,0.2,0.4,1.6,0.07500000000000001,1.25
-rich,PLWABN ID,0.5,0.125,0.1,0.2,1.6,0.037500000000000006,1.09375
 rich,has part(s),0.5,0.125,0.1,0.2,1.6,0.037500000000000006,1.09375
 rich,basic form of government,0.5,0.625,0.5,1.0,1.6,0.1875,inf
-rich,Libraries Australia ID,0.5,0.475,0.375,0.75,1.5789473684210527,0.1375,2.1
-rich,DeCS ID,0.5,0.35,0.275,0.55,1.5714285714285716,0.10000000000000003,1.4444444444444446
+rich,executive body,0.5,0.625,0.5,1.0,1.6,0.1875,inf
+rich,PLWABN ID,0.5,0.125,0.1,0.2,1.6,0.037500000000000006,1.09375
+rich,licence plate code,0.5,0.625,0.5,1.0,1.6,0.1875,inf
+rich,literacy rate,0.5,0.25,0.2,0.4,1.6,0.07500000000000001,1.25
+rich,Spanish Vikidia ID,0.5,0.625,0.5,1.0,1.6,0.1875,inf
+rich,Proleksis enciklopedija ID,0.5,0.125,0.1,0.2,1.6,0.037500000000000006,1.09375
 rich,replaces,0.5,0.575,0.45,0.9,1.565217391304348,0.16250000000000003,4.250000000000002
-rich,located in or next to body of water,0.5,0.575,0.45,0.9,1.565217391304348,0.16250000000000003,4.250000000000002
 rich,Early Modern Letters Online location ID,0.5,0.225,0.175,0.35,1.5555555555555554,0.062499999999999986,1.1923076923076923
-rich,executive body,0.5,0.65,0.5,1.0,1.5384615384615383,0.175,inf
-rich,Analysis & Policy Observatory term ID,0.5,0.65,0.5,1.0,1.5384615384615383,0.175,inf
 rich,Wikisimpsons ID,0.5,0.65,0.5,1.0,1.5384615384615383,0.175,inf
+rich,Analysis & Policy Observatory term ID,0.5,0.65,0.5,1.0,1.5384615384615383,0.175,inf
 rich,Encyclopedia of Modern Ukraine ID,0.5,0.425,0.325,0.65,1.5294117647058825,0.11250000000000002,1.6428571428571428
-rich,MeSH tree code,0.5,0.425,0.325,0.65,1.5294117647058825,0.11250000000000002,1.6428571428571428
+rich,IPA transcription,0.5,0.425,0.325,0.65,1.5294117647058825,0.11250000000000002,1.6428571428571428
 rich,Dewey Decimal Classification,0.5,0.525,0.4,0.8,1.5238095238095237,0.1375,2.3750000000000004
-rich,museum-digital place ID,0.5,0.625,0.475,0.95,1.52,0.16249999999999998,7.499999999999994
 rich,Treccani ID,0.5,0.6,0.45,0.9,1.5,0.15000000000000002,4.000000000000001
-rich,Great Russian Encyclopedia portal ID,0.5,0.1,0.075,0.15,1.4999999999999998,0.024999999999999994,1.0588235294117647
-rich,Canadiana Name Authority ID,0.5,0.1,0.075,0.15,1.4999999999999998,0.024999999999999994,1.0588235294117647
 rich,NLA Trove people ID,0.5,0.4,0.3,0.6,1.4999999999999998,0.09999999999999998,1.4999999999999998
+rich,Canadiana Name Authority ID,0.5,0.1,0.075,0.15,1.4999999999999998,0.024999999999999994,1.0588235294117647
 rich,aircraft registration prefix,0.5,0.1,0.075,0.15,1.4999999999999998,0.024999999999999994,1.0588235294117647
-rich,nominal GDP,0.5,0.1,0.075,0.15,1.4999999999999998,0.024999999999999994,1.0588235294117647
+rich,Great Russian Encyclopedia portal ID,0.5,0.1,0.075,0.15,1.4999999999999998,0.024999999999999994,1.0588235294117647
+rich,archives at,0.5,0.1,0.075,0.15,1.4999999999999998,0.024999999999999994,1.0588235294117647
+rich,FAST ID,0.5,0.675,0.5,1.0,1.4814814814814814,0.16249999999999998,inf
+rich,category for films shot at this location,0.5,0.675,0.5,1.0,1.4814814814814814,0.16249999999999998,inf
 rich,AllTrails trail ID,0.5,0.65,0.475,0.95,1.4615384615384615,0.14999999999999997,6.999999999999994
 rich,named after,0.5,0.55,0.4,0.8,1.4545454545454546,0.125,2.2500000000000004
-rich,IPA transcription,0.5,0.45,0.325,0.65,1.4444444444444444,0.1,1.5714285714285716
+rich,WorldCat Entities ID,0.5,0.55,0.4,0.8,1.4545454545454546,0.125,2.2500000000000004
 rich,VAT rate,0.5,0.625,0.45,0.9,1.44,0.1375,3.750000000000001
-rich,FAST ID,0.5,0.7,0.5,1.0,1.4285714285714286,0.15000000000000002,inf
-rich,category for films shot at this location,0.5,0.7,0.5,1.0,1.4285714285714286,0.15000000000000002,inf
 rich,Encyclopedia of China (Second Edition) ID,0.5,0.175,0.125,0.25,1.4285714285714286,0.037500000000000006,1.0999999999999999
 rich,Orthodox Encyclopedia ID,0.5,0.425,0.3,0.6,1.411764705882353,0.0875,1.4374999999999998
-rich,image,0.5,0.575,0.4,0.8,1.3913043478260871,0.11250000000000004,2.125000000000001
+rich,Grove Art Online ID,0.5,0.675,0.475,0.95,1.4074074074074072,0.13749999999999996,6.499999999999994
 rich,Gini coefficient,0.5,0.725,0.5,1.0,1.3793103448275863,0.1375,inf
-rich,Grove Art Online ID,0.5,0.7,0.475,0.95,1.3571428571428572,0.125,5.999999999999996
+rich,mobile country code,0.5,0.725,0.5,1.0,1.3793103448275863,0.1375,inf
+rich,different from,0.5,0.625,0.425,0.85,1.3599999999999999,0.11249999999999999,2.4999999999999996
 rich,ISNI,0.5,0.7,0.475,0.95,1.3571428571428572,0.125,5.999999999999996
-rich,LittleSis organization ID,0.5,0.075,0.05,0.1,1.3333333333333335,0.012500000000000004,1.027777777777778
-rich,female population,0.5,0.075,0.05,0.1,1.3333333333333335,0.012500000000000004,1.027777777777778
-rich,OpenStreetMap zoom level,0.5,0.075,0.05,0.1,1.3333333333333335,0.012500000000000004,1.027777777777778
-rich,male population,0.5,0.075,0.05,0.1,1.3333333333333335,0.012500000000000004,1.027777777777778
-rich,Art & Architecture Thesaurus ID,0.5,0.075,0.05,0.1,1.3333333333333335,0.012500000000000004,1.027777777777778
-rich,UNDP country code,0.5,0.075,0.05,0.1,1.3333333333333335,0.012500000000000004,1.027777777777778
-rich,Vatican Library ID (former scheme),0.5,0.075,0.05,0.1,1.3333333333333335,0.012500000000000004,1.027777777777778
-rich,audio,0.5,0.075,0.05,0.1,1.3333333333333335,0.012500000000000004,1.027777777777778
-rich,OpenWeatherMap city ID,0.5,0.15,0.1,0.2,1.3333333333333335,0.02500000000000001,1.0625
-rich,separated from,0.5,0.075,0.05,0.1,1.3333333333333335,0.012500000000000004,1.027777777777778
+rich,described by source,0.5,0.7,0.475,0.95,1.3571428571428572,0.125,5.999999999999996
+rich,Encyclopedia of Korean Culture ID,0.5,0.7,0.475,0.95,1.3571428571428572,0.125,5.999999999999996
 rich,National Library of Greece ID,0.5,0.15,0.1,0.2,1.3333333333333335,0.02500000000000001,1.0625
-rich,MeSH descriptor ID,0.5,0.75,0.5,1.0,1.3333333333333333,0.125,inf
-rich,detail map,0.5,0.225,0.15,0.3,1.3333333333333333,0.03749999999999999,1.1071428571428572
+rich,audio,0.5,0.075,0.05,0.1,1.3333333333333335,0.012500000000000004,1.027777777777778
+rich,Art & Architecture Thesaurus ID,0.5,0.075,0.05,0.1,1.3333333333333335,0.012500000000000004,1.027777777777778
+rich,Vatican Library ID (former scheme),0.5,0.075,0.05,0.1,1.3333333333333335,0.012500000000000004,1.027777777777778
+rich,separated from,0.5,0.075,0.05,0.1,1.3333333333333335,0.012500000000000004,1.027777777777778
+rich,male population,0.5,0.075,0.05,0.1,1.3333333333333335,0.012500000000000004,1.027777777777778
+rich,UNDP country code,0.5,0.075,0.05,0.1,1.3333333333333335,0.012500000000000004,1.027777777777778
+rich,female population,0.5,0.075,0.05,0.1,1.3333333333333335,0.012500000000000004,1.027777777777778
+rich,OpenWeatherMap city ID,0.5,0.15,0.1,0.2,1.3333333333333335,0.02500000000000001,1.0625
+rich,coordinates of southernmost point,0.5,0.75,0.5,1.0,1.3333333333333333,0.125,inf
 rich,Inequality-adjusted Human Development Index,0.5,0.75,0.5,1.0,1.3333333333333333,0.125,inf
+rich,BabelNet ID,0.5,0.75,0.5,1.0,1.3333333333333333,0.125,inf
+rich,foundational text,0.5,0.225,0.15,0.3,1.3333333333333333,0.03749999999999999,1.1071428571428572
 rich,Le Monde diplomatique subject ID,0.5,0.75,0.5,1.0,1.3333333333333333,0.125,inf
-rich,mobile country code,0.5,0.75,0.5,1.0,1.3333333333333333,0.125,inf
-rich,Encyclopedia of Korean Culture ID,0.5,0.725,0.475,0.95,1.3103448275862069,0.11249999999999999,5.499999999999996
-rich,described by source,0.5,0.725,0.475,0.95,1.3103448275862069,0.11249999999999999,5.499999999999996
-rich,different from,0.5,0.65,0.425,0.85,1.3076923076923077,0.09999999999999998,2.333333333333333
-rich,Google Arts & Culture entity ID,0.5,0.5,0.325,0.65,1.3,0.07500000000000001,1.4285714285714286
+rich,Comic Vine ID,0.5,0.675,0.45,0.9,1.3333333333333333,0.11249999999999999,3.2500000000000004
+rich,New York Times topic ID,0.5,0.725,0.475,0.95,1.3103448275862069,0.11249999999999999,5.499999999999996
+rich,Numista ruling authority ID,0.5,0.5,0.325,0.65,1.3,0.07500000000000001,1.4285714285714286
 rich,Data Commons ID,0.5,0.425,0.275,0.55,1.2941176470588236,0.06250000000000003,1.277777777777778
-rich,coordinates of southernmost point,0.5,0.775,0.5,1.0,1.2903225806451613,0.11249999999999999,inf
-rich,BabelNet ID,0.5,0.775,0.5,1.0,1.2903225806451613,0.11249999999999999,inf
-rich,Comic Vine ID,0.5,0.7,0.45,0.9,1.2857142857142858,0.10000000000000003,3.0000000000000013
+rich,UNBIS Thesaurus ID,0.5,0.425,0.275,0.55,1.2941176470588236,0.06250000000000003,1.277777777777778
+rich,museum-digital place ID,0.5,0.775,0.5,1.0,1.2903225806451613,0.11249999999999999,inf
+rich,Yle topic ID,0.5,0.775,0.5,1.0,1.2903225806451613,0.11249999999999999,inf
+rich,image,0.5,0.625,0.4,0.8,1.28,0.08750000000000002,1.8750000000000004
 rich,ABC News topic ID,0.5,0.275,0.175,0.35,1.2727272727272725,0.03749999999999998,1.1153846153846154
-rich,New York Times topic ID,0.5,0.75,0.475,0.95,1.2666666666666666,0.09999999999999998,4.999999999999996
 rich,Australian War Memorial ID,0.5,0.2,0.125,0.25,1.25,0.024999999999999994,1.0666666666666667
-rich,Yle topic ID,0.5,0.8,0.5,1.0,1.25,0.09999999999999998,inf
+rich,Postimees topic ID,0.5,0.8,0.5,1.0,1.25,0.09999999999999998,inf
+rich,OmegaWiki Defined Meaning,0.5,0.8,0.5,1.0,1.25,0.09999999999999998,inf
+rich,Commons gallery,0.5,0.8,0.5,1.0,1.25,0.09999999999999998,inf
+rich,electrical plug type,0.5,0.8,0.5,1.0,1.25,0.09999999999999998,inf
 rich,Libris-URI,0.5,0.4,0.25,0.5,1.25,0.04999999999999999,1.2
-rich,Numista ruling authority ID,0.5,0.525,0.325,0.65,1.2380952380952381,0.0625,1.3571428571428572
-rich,MeSH concept ID,0.5,0.325,0.2,0.4,1.2307692307692308,0.037500000000000006,1.1250000000000002
+rich,mains voltage,0.5,0.8,0.5,1.0,1.25,0.09999999999999998,inf
+rich,Invasive Species Compendium Datasheet ID,0.5,0.525,0.325,0.65,1.2380952380952381,0.0625,1.3571428571428572
+rich,U.S. National Archives Identifier,0.5,0.775,0.475,0.95,1.225806451612903,0.08749999999999997,4.499999999999996
 rich,National Library of Israel ID (old),0.5,0.775,0.475,0.95,1.225806451612903,0.08749999999999997,4.499999999999996
-rich,UNBIS Thesaurus ID,0.5,0.45,0.275,0.55,1.2222222222222223,0.05000000000000002,1.2222222222222225
-rich,electrical plug type,0.5,0.825,0.5,1.0,1.2121212121212122,0.08750000000000002,inf
-rich,Commons gallery,0.5,0.825,0.5,1.0,1.2121212121212122,0.08750000000000002,inf
-rich,OmegaWiki Defined Meaning,0.5,0.825,0.5,1.0,1.2121212121212122,0.08750000000000002,inf
-rich,Postimees topic ID,0.5,0.825,0.5,1.0,1.2121212121212122,0.08750000000000002,inf
+rich,permanent duplicated item,0.5,0.775,0.475,0.95,1.225806451612903,0.08749999999999997,4.499999999999996
+rich,life expectancy,0.5,0.825,0.5,1.0,1.2121212121212122,0.08750000000000002,inf
+rich,total fertility rate,0.5,0.825,0.5,1.0,1.2121212121212122,0.08750000000000002,inf
+rich,Interlingual Index ID,0.5,0.825,0.5,1.0,1.2121212121212122,0.08750000000000002,inf
 rich,IdRef ID,0.5,0.825,0.5,1.0,1.2121212121212122,0.08750000000000002,inf
-rich,mains voltage,0.5,0.825,0.5,1.0,1.2121212121212122,0.08750000000000002,inf
-rich,foundational text,0.5,0.25,0.15,0.3,1.2,0.024999999999999994,1.0714285714285714
-rich,archives at,0.5,0.125,0.075,0.15,1.2,0.012499999999999997,1.0294117647058825
-rich,U.S. National Archives Identifier,0.5,0.8,0.475,0.95,1.1874999999999998,0.07499999999999996,3.9999999999999956
-rich,permanent duplicated item,0.5,0.8,0.475,0.95,1.1874999999999998,0.07499999999999996,3.9999999999999956
-rich,Invasive Species Compendium Datasheet ID,0.5,0.55,0.325,0.65,1.1818181818181817,0.04999999999999999,1.2857142857142856
-rich,life expectancy,0.5,0.85,0.5,1.0,1.1764705882352942,0.07500000000000001,inf
-rich,Interlingual Index ID,0.5,0.85,0.5,1.0,1.1764705882352942,0.07500000000000001,inf
-rich,total fertility rate,0.5,0.85,0.5,1.0,1.1764705882352942,0.07500000000000001,inf
+rich,WIPO ST.3,0.5,0.825,0.5,1.0,1.2121212121212122,0.08750000000000002,inf
+rich,Bibliothèque nationale de France ID,0.5,0.825,0.5,1.0,1.2121212121212122,0.08750000000000002,inf
+rich,detail map,0.5,0.25,0.15,0.3,1.2,0.024999999999999994,1.0714285714285714
+rich,official website,0.5,0.8,0.475,0.95,1.1874999999999998,0.07499999999999996,3.9999999999999956
+rich,OpenStreetMap node ID,0.5,0.8,0.475,0.95,1.1874999999999998,0.07499999999999996,3.9999999999999956
+rich,YSA ID,0.5,0.85,0.5,1.0,1.1764705882352942,0.07500000000000001,inf
+rich,part of,0.5,0.85,0.5,1.0,1.1764705882352942,0.07500000000000001,inf
+rich,CIVICUS Monitor country entry,0.5,0.85,0.5,1.0,1.1764705882352942,0.07500000000000001,inf
 rich,ITU letter code,0.5,0.85,0.5,1.0,1.1764705882352942,0.07500000000000001,inf
-rich,WIPO ST.3,0.5,0.85,0.5,1.0,1.1764705882352942,0.07500000000000001,inf
-rich,Bibliothèque nationale de France ID,0.5,0.85,0.5,1.0,1.1764705882352942,0.07500000000000001,inf
-rich,OpenStreetMap node ID,0.5,0.825,0.475,0.95,1.1515151515151516,0.0625,3.499999999999998
-rich,official website,0.5,0.825,0.475,0.95,1.1515151515151516,0.0625,3.499999999999998
+rich,YSO ID,0.5,0.85,0.5,1.0,1.1764705882352942,0.07500000000000001,inf
+rich,GeoNLP ID,0.5,0.85,0.5,1.0,1.1764705882352942,0.07500000000000001,inf
+rich,archINFORM location ID,0.5,0.85,0.5,1.0,1.1764705882352942,0.07500000000000001,inf
+rich,FIPS 10-4 (countries and regions),0.5,0.85,0.5,1.0,1.1764705882352942,0.07500000000000001,inf
+rich,Store norske leksikon ID,0.5,0.85,0.5,1.0,1.1764705882352942,0.07500000000000001,inf
+rich,GACS ID,0.5,0.85,0.5,1.0,1.1764705882352942,0.07500000000000001,inf
+rich,NDL Authority ID,0.5,0.85,0.5,1.0,1.1764705882352942,0.07500000000000001,inf
+rich,Gran Enciclopèdia Catalana ID,0.5,0.85,0.5,1.0,1.1764705882352942,0.07500000000000001,inf
+rich,LoC and MARC vocabularies ID,0.5,0.85,0.5,1.0,1.1764705882352942,0.07500000000000001,inf
+rich,NL CR AUT ID,0.5,0.85,0.5,1.0,1.1764705882352942,0.07500000000000001,inf
+rich,geoshape,0.5,0.85,0.5,1.0,1.1764705882352942,0.07500000000000001,inf
+rich,French Vikidia ID,0.5,0.85,0.5,1.0,1.1764705882352942,0.07500000000000001,inf
+rich,OBO Gazetteer ID,0.5,0.85,0.5,1.0,1.1764705882352942,0.07500000000000001,inf
+rich,GND ID,0.5,0.85,0.5,1.0,1.1764705882352942,0.07500000000000001,inf
+rich,World Geographical Scheme for Recording Plant Distributions ID,0.5,0.6,0.35,0.7,1.1666666666666667,0.04999999999999999,1.3333333333333333
+rich,Curlie ID,0.5,0.775,0.45,0.9,1.1612903225806452,0.0625,2.2500000000000004
+rich,M.49 code,0.5,0.775,0.45,0.9,1.1612903225806452,0.0625,2.2500000000000004
+rich,BBC News topic ID,0.5,0.825,0.475,0.95,1.1515151515151516,0.0625,3.499999999999998
+rich,Brockhaus Enzyklopädie online ID,0.5,0.825,0.475,0.95,1.1515151515151516,0.0625,3.499999999999998
 rich,TermCymru ID,0.5,0.35,0.2,0.4,1.142857142857143,0.025000000000000022,1.0833333333333335
 rich,JORFSearch organization ID,0.5,0.175,0.1,0.2,1.142857142857143,0.012500000000000011,1.0312499999999998
-rich,GND ID,0.5,0.875,0.5,1.0,1.1428571428571428,0.0625,inf
-rich,Gran Enciclopèdia Catalana ID,0.5,0.875,0.5,1.0,1.1428571428571428,0.0625,inf
-rich,YSO ID,0.5,0.875,0.5,1.0,1.1428571428571428,0.0625,inf
-rich,YSA ID,0.5,0.875,0.5,1.0,1.1428571428571428,0.0625,inf
-rich,subreddit,0.5,0.875,0.5,1.0,1.1428571428571428,0.0625,inf
-rich,Store norske leksikon ID,0.5,0.875,0.5,1.0,1.1428571428571428,0.0625,inf
-rich,GeoNLP ID,0.5,0.875,0.5,1.0,1.1428571428571428,0.0625,inf
-rich,Krugosvet article,0.5,0.875,0.5,1.0,1.1428571428571428,0.0625,inf
-rich,part of,0.5,0.875,0.5,1.0,1.1428571428571428,0.0625,inf
-rich,geoshape,0.5,0.875,0.5,1.0,1.1428571428571428,0.0625,inf
-rich,culture,0.5,0.875,0.5,1.0,1.1428571428571428,0.0625,inf
-rich,FIPS 10-4 (countries and regions),0.5,0.875,0.5,1.0,1.1428571428571428,0.0625,inf
-rich,LoC and MARC vocabularies ID,0.5,0.875,0.5,1.0,1.1428571428571428,0.0625,inf
-rich,archINFORM location ID,0.5,0.875,0.5,1.0,1.1428571428571428,0.0625,inf
-rich,GACS ID,0.5,0.875,0.5,1.0,1.1428571428571428,0.0625,inf
-rich,NL CR AUT ID,0.5,0.875,0.5,1.0,1.1428571428571428,0.0625,inf
-rich,NDL Authority ID,0.5,0.875,0.5,1.0,1.1428571428571428,0.0625,inf
-rich,French Vikidia ID,0.5,0.875,0.5,1.0,1.1428571428571428,0.0625,inf
-rich,CIVICUS Monitor country entry,0.5,0.875,0.5,1.0,1.1428571428571428,0.0625,inf
+rich,NicoNicoPedia ID,0.5,0.875,0.5,1.0,1.1428571428571428,0.0625,inf
 rich,Great Russian Encyclopedia Online ID (old version),0.5,0.875,0.5,1.0,1.1428571428571428,0.0625,inf
-rich,Curlie ID,0.5,0.8,0.45,0.9,1.125,0.04999999999999999,2.0
-rich,M.49 code,0.5,0.8,0.45,0.9,1.125,0.04999999999999999,2.0
-rich,World Geographical Scheme for Recording Plant Distributions ID,0.5,0.625,0.35,0.7,1.1199999999999999,0.03749999999999998,1.2499999999999998
-rich,OBO Gazetteer ID,0.5,0.85,0.475,0.95,1.1176470588235294,0.04999999999999999,2.999999999999998
-rich,BBC News topic ID,0.5,0.85,0.475,0.95,1.1176470588235294,0.04999999999999999,2.999999999999998
-rich,Brockhaus Enzyklopädie online ID,0.5,0.85,0.475,0.95,1.1176470588235294,0.04999999999999999,2.999999999999998
-rich,IAB code,0.5,0.9,0.5,1.0,1.1111111111111112,0.04999999999999999,inf
-rich,Encyclopædia Britannica Online ID,0.5,0.9,0.5,1.0,1.1111111111111112,0.04999999999999999,inf
-rich,STW Thesaurus for Economics ID,0.5,0.9,0.5,1.0,1.1111111111111112,0.04999999999999999,inf
-rich,topic's main Wikimedia portal,0.5,0.9,0.5,1.0,1.1111111111111112,0.04999999999999999,inf
-rich,KBpedia ID,0.5,0.9,0.5,1.0,1.1111111111111112,0.04999999999999999,inf
-rich,Library of Congress authority ID,0.5,0.9,0.5,1.0,1.1111111111111112,0.04999999999999999,inf
-rich,Namuwiki ID,0.5,0.9,0.5,1.0,1.1111111111111112,0.04999999999999999,inf
-rich,contains the administrative territorial entity,0.5,0.9,0.5,1.0,1.1111111111111112,0.04999999999999999,inf
-rich,EuroVoc ID,0.5,0.9,0.5,1.0,1.1111111111111112,0.04999999999999999,inf
-rich,Klexikon article ID,0.5,0.9,0.5,1.0,1.1111111111111112,0.04999999999999999,inf
-rich,iNaturalist place ID,0.5,0.9,0.5,1.0,1.1111111111111112,0.04999999999999999,inf
-rich,on focus list of Wikimedia project,0.5,0.9,0.5,1.0,1.1111111111111112,0.04999999999999999,inf
-rich,UNESCO Thesaurus ID,0.5,0.9,0.5,1.0,1.1111111111111112,0.04999999999999999,inf
-rich,driving side,0.5,0.9,0.5,1.0,1.1111111111111112,0.04999999999999999,inf
-rich,ITU/ISO/IEC object ID,0.5,0.9,0.5,1.0,1.1111111111111112,0.04999999999999999,inf
-rich,country,0.5,0.9,0.5,1.0,1.1111111111111112,0.04999999999999999,inf
-rich,page banner,0.5,0.9,0.5,1.0,1.1111111111111112,0.04999999999999999,inf
-rich,National Library of Israel J9U ID,0.5,0.9,0.5,1.0,1.1111111111111112,0.04999999999999999,inf
-rich,National Historical Museums of Sweden ID,0.5,0.9,0.5,1.0,1.1111111111111112,0.04999999999999999,inf
-rich,IOC country code,0.5,0.9,0.5,1.0,1.1111111111111112,0.04999999999999999,inf
-rich,Getty Thesaurus of Geographic Names ID,0.5,0.9,0.5,1.0,1.1111111111111112,0.04999999999999999,inf
-rich,Wikimedia outline,0.5,0.9,0.5,1.0,1.1111111111111112,0.04999999999999999,inf
-rich,category for people born here,0.5,0.9,0.5,1.0,1.1111111111111112,0.04999999999999999,inf
-rich,UK Parliament thesaurus ID,0.5,0.9,0.5,1.0,1.1111111111111112,0.04999999999999999,inf
-rich,Statoids ID,0.5,0.9,0.5,1.0,1.1111111111111112,0.04999999999999999,inf
-rich,Online PWN Encyclopedia ID,0.5,0.9,0.5,1.0,1.1111111111111112,0.04999999999999999,inf
-rich,has quality,0.5,0.9,0.5,1.0,1.1111111111111112,0.04999999999999999,inf
-rich,shares border with,0.5,0.9,0.5,1.0,1.1111111111111112,0.04999999999999999,inf
-rich,native label,0.5,0.9,0.5,1.0,1.1111111111111112,0.04999999999999999,inf
-rich,number of out-of-school children,0.5,0.775,0.425,0.85,1.096774193548387,0.03749999999999998,1.4999999999999996
-rich,central bank,0.5,0.875,0.475,0.95,1.0857142857142856,0.03749999999999998,2.499999999999998
-rich,The World Factbook country ID,0.5,0.875,0.475,0.95,1.0857142857142856,0.03749999999999998,2.499999999999998
-rich,Treccani's Dizionario di Storia ID,0.5,0.875,0.475,0.95,1.0857142857142856,0.03749999999999998,2.499999999999998
-rich,coordinates of northernmost point,0.5,0.925,0.5,1.0,1.081081081081081,0.03749999999999998,inf
-rich,pronunciation audio,0.5,0.925,0.5,1.0,1.081081081081081,0.03749999999999998,inf
-rich,TasteAtlas ID,0.5,0.925,0.5,1.0,1.081081081081081,0.03749999999999998,inf
-rich,Quora topic ID,0.5,0.925,0.5,1.0,1.081081081081081,0.03749999999999998,inf
-rich,lowest point,0.5,0.925,0.5,1.0,1.081081081081081,0.03749999999999998,inf
-rich,GeoNames ID,0.5,0.925,0.5,1.0,1.081081081081081,0.03749999999999998,inf
-rich,emergency phone number,0.5,0.925,0.5,1.0,1.081081081081081,0.03749999999999998,inf
-rich,maritime identification digits,0.5,0.925,0.5,1.0,1.081081081081081,0.03749999999999998,inf
-rich,highest point,0.5,0.925,0.5,1.0,1.081081081081081,0.03749999999999998,inf
-rich,coordinates of easternmost point,0.5,0.925,0.5,1.0,1.081081081081081,0.03749999999999998,inf
-rich,legislative body,0.5,0.925,0.5,1.0,1.081081081081081,0.03749999999999998,inf
-rich,Human Development Index,0.5,0.925,0.5,1.0,1.081081081081081,0.03749999999999998,inf
-rich,category for maps,0.5,0.925,0.5,1.0,1.081081081081081,0.03749999999999998,inf
-rich,geography of topic,0.5,0.925,0.5,1.0,1.081081081081081,0.03749999999999998,inf
-rich,coordinates of westernmost point,0.5,0.925,0.5,1.0,1.081081081081081,0.03749999999999998,inf
-rich,history of topic,0.5,0.925,0.5,1.0,1.081081081081081,0.03749999999999998,inf
-rich,WordNet 3.1 Synset ID,0.5,0.925,0.5,1.0,1.081081081081081,0.03749999999999998,inf
-rich,top-level Internet domain,0.5,0.925,0.5,1.0,1.081081081081081,0.03749999999999998,inf
-rich,category of associated people,0.5,0.925,0.5,1.0,1.081081081081081,0.03749999999999998,inf
-rich,Who's on First ID,0.5,0.925,0.5,1.0,1.081081081081081,0.03749999999999998,inf
-rich,MusicBrainz area ID,0.5,0.925,0.5,1.0,1.081081081081081,0.03749999999999998,inf
-rich,category for people who died here,0.5,0.925,0.5,1.0,1.081081081081081,0.03749999999999998,inf
+rich,on focus list of Wikimedia project,0.5,0.875,0.5,1.0,1.1428571428571428,0.0625,inf
+rich,National Historical Museums of Sweden ID,0.5,0.875,0.5,1.0,1.1428571428571428,0.0625,inf
+rich,Online PWN Encyclopedia ID,0.5,0.875,0.5,1.0,1.1428571428571428,0.0625,inf
+rich,IAB code,0.5,0.875,0.5,1.0,1.1428571428571428,0.0625,inf
+rich,iNaturalist place ID,0.5,0.875,0.5,1.0,1.1428571428571428,0.0625,inf
+rich,UNESCO Thesaurus ID,0.5,0.875,0.5,1.0,1.1428571428571428,0.0625,inf
+rich,UK Parliament thesaurus ID,0.5,0.875,0.5,1.0,1.1428571428571428,0.0625,inf
+rich,native label,0.5,0.875,0.5,1.0,1.1428571428571428,0.0625,inf
+rich,has quality,0.5,0.875,0.5,1.0,1.1428571428571428,0.0625,inf
+rich,EuroVoc ID,0.5,0.875,0.5,1.0,1.1428571428571428,0.0625,inf
+rich,country,0.5,0.875,0.5,1.0,1.1428571428571428,0.0625,inf
+rich,IOC country code,0.5,0.875,0.5,1.0,1.1428571428571428,0.0625,inf
+rich,Statoids ID,0.5,0.875,0.5,1.0,1.1428571428571428,0.0625,inf
+rich,category for people born here,0.5,0.875,0.5,1.0,1.1428571428571428,0.0625,inf
+rich,KBpedia ID,0.5,0.875,0.5,1.0,1.1428571428571428,0.0625,inf
+rich,driving side,0.5,0.875,0.5,1.0,1.1428571428571428,0.0625,inf
+rich,Namuwiki ID,0.5,0.875,0.5,1.0,1.1428571428571428,0.0625,inf
+rich,contains the administrative territorial entity,0.5,0.875,0.5,1.0,1.1428571428571428,0.0625,inf
+rich,nominal GDP,0.5,0.875,0.5,1.0,1.1428571428571428,0.0625,inf
+rich,topic's main Wikimedia portal,0.5,0.875,0.5,1.0,1.1428571428571428,0.0625,inf
+rich,shares border with,0.5,0.875,0.5,1.0,1.1428571428571428,0.0625,inf
+rich,culture,0.5,0.875,0.5,1.0,1.1428571428571428,0.0625,inf
+rich,Wikimedia outline,0.5,0.875,0.5,1.0,1.1428571428571428,0.0625,inf
+rich,Klexikon article ID,0.5,0.875,0.5,1.0,1.1428571428571428,0.0625,inf
+rich,National Library of Israel J9U ID,0.5,0.875,0.5,1.0,1.1428571428571428,0.0625,inf
+rich,STW Thesaurus for Economics ID,0.5,0.875,0.5,1.0,1.1428571428571428,0.0625,inf
+rich,Krugosvet article,0.5,0.875,0.5,1.0,1.1428571428571428,0.0625,inf
+rich,page banner,0.5,0.875,0.5,1.0,1.1428571428571428,0.0625,inf
+rich,Encyclopædia Britannica Online ID,0.5,0.875,0.5,1.0,1.1428571428571428,0.0625,inf
+rich,Getty Thesaurus of Geographic Names ID,0.5,0.875,0.5,1.0,1.1428571428571428,0.0625,inf
+rich,number of out-of-school children,0.5,0.75,0.425,0.85,1.1333333333333333,0.04999999999999999,1.6666666666666665
+rich,Treccani's Dizionario di Storia ID,0.5,0.85,0.475,0.95,1.1176470588235294,0.04999999999999999,2.999999999999998
+rich,central bank,0.5,0.85,0.475,0.95,1.1176470588235294,0.04999999999999999,2.999999999999998
+rich,The World Factbook country ID,0.5,0.85,0.475,0.95,1.1176470588235294,0.04999999999999999,2.999999999999998
+rich,GeoNames ID,0.5,0.9,0.5,1.0,1.1111111111111112,0.04999999999999999,inf
+rich,MusicBrainz area ID,0.5,0.9,0.5,1.0,1.1111111111111112,0.04999999999999999,inf
+rich,Who's on First ID,0.5,0.9,0.5,1.0,1.1111111111111112,0.04999999999999999,inf
+rich,history of topic,0.5,0.9,0.5,1.0,1.1111111111111112,0.04999999999999999,inf
+rich,pronunciation audio,0.5,0.9,0.5,1.0,1.1111111111111112,0.04999999999999999,inf
+rich,maritime identification digits,0.5,0.9,0.5,1.0,1.1111111111111112,0.04999999999999999,inf
+rich,geography of topic,0.5,0.9,0.5,1.0,1.1111111111111112,0.04999999999999999,inf
+rich,legislative body,0.5,0.9,0.5,1.0,1.1111111111111112,0.04999999999999999,inf
+rich,coordinates of easternmost point,0.5,0.9,0.5,1.0,1.1111111111111112,0.04999999999999999,inf
+rich,lowest point,0.5,0.9,0.5,1.0,1.1111111111111112,0.04999999999999999,inf
+rich,category of associated people,0.5,0.9,0.5,1.0,1.1111111111111112,0.04999999999999999,inf
+rich,emergency phone number,0.5,0.9,0.5,1.0,1.1111111111111112,0.04999999999999999,inf
+rich,coordinates of westernmost point,0.5,0.9,0.5,1.0,1.1111111111111112,0.04999999999999999,inf
+rich,Human Development Index,0.5,0.9,0.5,1.0,1.1111111111111112,0.04999999999999999,inf
+rich,coordinates of northernmost point,0.5,0.9,0.5,1.0,1.1111111111111112,0.04999999999999999,inf
+rich,top-level Internet domain,0.5,0.9,0.5,1.0,1.1111111111111112,0.04999999999999999,inf
+rich,category for people who died here,0.5,0.9,0.5,1.0,1.1111111111111112,0.04999999999999999,inf
+rich,highest point,0.5,0.9,0.5,1.0,1.1111111111111112,0.04999999999999999,inf
+rich,WordNet 3.1 Synset ID,0.5,0.9,0.5,1.0,1.1111111111111112,0.04999999999999999,inf
+rich,category for maps,0.5,0.9,0.5,1.0,1.1111111111111112,0.04999999999999999,inf
+rich,Quora topic ID,0.5,0.9,0.5,1.0,1.1111111111111112,0.04999999999999999,inf
+rich,TasteAtlas ID,0.5,0.9,0.5,1.0,1.1111111111111112,0.04999999999999999,inf
+rich,The Top Tens ID,0.5,0.675,0.375,0.75,1.111111111111111,0.03749999999999998,1.2999999999999998
+rich,marriageable age,0.5,0.725,0.4,0.8,1.103448275862069,0.03750000000000003,1.3750000000000004
+rich,head of government,0.5,0.925,0.5,1.0,1.081081081081081,0.03749999999999998,inf
+rich,Den Store Danske ID,0.5,0.925,0.5,1.0,1.081081081081081,0.03749999999999998,inf
+rich,language used,0.5,0.925,0.5,1.0,1.081081081081081,0.03749999999999998,inf
+rich,ISO 3166-1 alpha-2 code,0.5,0.925,0.5,1.0,1.081081081081081,0.03749999999999998,inf
+rich,office held by head of state,0.5,0.925,0.5,1.0,1.081081081081081,0.03749999999999998,inf
+rich,locator map image,0.5,0.925,0.5,1.0,1.081081081081081,0.03749999999999998,inf
+rich,office held by head of government,0.5,0.925,0.5,1.0,1.081081081081081,0.03749999999999998,inf
+rich,coat of arms image,0.5,0.925,0.5,1.0,1.081081081081081,0.03749999999999998,inf
+rich,coat of arms,0.5,0.925,0.5,1.0,1.081081081081081,0.03749999999999998,inf
+rich,area,0.5,0.925,0.5,1.0,1.081081081081081,0.03749999999999998,inf
+rich,diplomatic relation,0.5,0.925,0.5,1.0,1.081081081081081,0.03749999999999998,inf
+rich,economy of topic,0.5,0.925,0.5,1.0,1.081081081081081,0.03749999999999998,inf
+rich,Unicode character,0.5,0.925,0.5,1.0,1.081081081081081,0.03749999999999998,inf
+rich,demographics of topic,0.5,0.925,0.5,1.0,1.081081081081081,0.03749999999999998,inf
+rich,EU Knowledge Graph item ID,0.5,0.925,0.5,1.0,1.081081081081081,0.03749999999999998,inf
+rich,Commons category,0.5,0.925,0.5,1.0,1.081081081081081,0.03749999999999998,inf
+rich,flag image,0.5,0.925,0.5,1.0,1.081081081081081,0.03749999999999998,inf
+rich,population,0.5,0.925,0.5,1.0,1.081081081081081,0.03749999999999998,inf
+rich,official name,0.5,0.925,0.5,1.0,1.081081081081081,0.03749999999999998,inf
+rich,country calling code,0.5,0.925,0.5,1.0,1.081081081081081,0.03749999999999998,inf
+rich,anthem,0.5,0.925,0.5,1.0,1.081081081081081,0.03749999999999998,inf
+rich,member of,0.5,0.925,0.5,1.0,1.081081081081081,0.03749999999999998,inf
+rich,located in time zone,0.5,0.925,0.5,1.0,1.081081081081081,0.03749999999999998,inf
+rich,OpenStreetMap relation ID,0.5,0.925,0.5,1.0,1.081081081081081,0.03749999999999998,inf
+rich,official language,0.5,0.925,0.5,1.0,1.081081081081081,0.03749999999999998,inf
+rich,head of state,0.5,0.925,0.5,1.0,1.081081081081081,0.03749999999999998,inf
+rich,currency,0.5,0.925,0.5,1.0,1.081081081081081,0.03749999999999998,inf
+rich,flag,0.5,0.925,0.5,1.0,1.081081081081081,0.03749999999999998,inf
+rich,ISO 3166-1 numeric code,0.5,0.925,0.5,1.0,1.081081081081081,0.03749999999999998,inf
+rich,short name,0.5,0.925,0.5,1.0,1.081081081081081,0.03749999999999998,inf
+rich,VIAF ID,0.5,0.925,0.5,1.0,1.081081081081081,0.03749999999999998,inf
+rich,ISO 3166-1 alpha-3 code,0.5,0.925,0.5,1.0,1.081081081081081,0.03749999999999998,inf
+rich,hashtag,0.5,0.925,0.5,1.0,1.081081081081081,0.03749999999999998,inf
 rich,follows,0.5,0.325,0.175,0.35,1.0769230769230769,0.012499999999999983,1.0384615384615385
-rich,The Top Tens ID,0.5,0.7,0.375,0.75,1.0714285714285714,0.025000000000000022,1.2000000000000002
-rich,marriageable age,0.5,0.75,0.4,0.8,1.0666666666666667,0.025000000000000022,1.2500000000000002
-rich,coat of arms,0.5,0.95,0.5,1.0,1.0526315789473684,0.025000000000000022,inf
-rich,flag,0.5,0.95,0.5,1.0,1.0526315789473684,0.025000000000000022,inf
-rich,locator map image,0.5,0.95,0.5,1.0,1.0526315789473684,0.025000000000000022,inf
-rich,official name,0.5,0.95,0.5,1.0,1.0526315789473684,0.025000000000000022,inf
-rich,demographics of topic,0.5,0.95,0.5,1.0,1.0526315789473684,0.025000000000000022,inf
-rich,EU Knowledge Graph item ID,0.5,0.95,0.5,1.0,1.0526315789473684,0.025000000000000022,inf
-rich,office held by head of state,0.5,0.95,0.5,1.0,1.0526315789473684,0.025000000000000022,inf
-rich,population,0.5,0.95,0.5,1.0,1.0526315789473684,0.025000000000000022,inf
-rich,ISO 3166-1 numeric code,0.5,0.95,0.5,1.0,1.0526315789473684,0.025000000000000022,inf
-rich,Unicode character,0.5,0.95,0.5,1.0,1.0526315789473684,0.025000000000000022,inf
-rich,anthem,0.5,0.95,0.5,1.0,1.0526315789473684,0.025000000000000022,inf
-rich,Commons category,0.5,0.95,0.5,1.0,1.0526315789473684,0.025000000000000022,inf
-rich,coat of arms image,0.5,0.95,0.5,1.0,1.0526315789473684,0.025000000000000022,inf
-rich,area,0.5,0.95,0.5,1.0,1.0526315789473684,0.025000000000000022,inf
-rich,diplomatic relation,0.5,0.95,0.5,1.0,1.0526315789473684,0.025000000000000022,inf
-rich,head of state,0.5,0.95,0.5,1.0,1.0526315789473684,0.025000000000000022,inf
+rich,motto text,0.5,0.85,0.45,0.9,1.0588235294117647,0.025000000000000022,1.5000000000000007
+rich,INSEE countries and foreign territories code,0.5,0.9,0.475,0.95,1.0555555555555556,0.024999999999999967,1.9999999999999978
+rich,demonym,0.5,0.95,0.5,1.0,1.0526315789473684,0.025000000000000022,inf
 rich,topic's main category,0.5,0.95,0.5,1.0,1.0526315789473684,0.025000000000000022,inf
-rich,official language,0.5,0.95,0.5,1.0,1.0526315789473684,0.025000000000000022,inf
-rich,hashtag,0.5,0.95,0.5,1.0,1.0526315789473684,0.025000000000000022,inf
-rich,located in time zone,0.5,0.95,0.5,1.0,1.0526315789473684,0.025000000000000022,inf
-rich,economy of topic,0.5,0.95,0.5,1.0,1.0526315789473684,0.025000000000000022,inf
-rich,Den Store Danske ID,0.5,0.95,0.5,1.0,1.0526315789473684,0.025000000000000022,inf
-rich,flag image,0.5,0.95,0.5,1.0,1.0526315789473684,0.025000000000000022,inf
-rich,currency,0.5,0.95,0.5,1.0,1.0526315789473684,0.025000000000000022,inf
-rich,short name,0.5,0.95,0.5,1.0,1.0526315789473684,0.025000000000000022,inf
 rich,coordinate location,0.5,0.95,0.5,1.0,1.0526315789473684,0.025000000000000022,inf
-rich,ISO 3166-1 alpha-2 code,0.5,0.95,0.5,1.0,1.0526315789473684,0.025000000000000022,inf
-rich,ISO 3166-1 alpha-3 code,0.5,0.95,0.5,1.0,1.0526315789473684,0.025000000000000022,inf
-rich,VIAF ID,0.5,0.95,0.5,1.0,1.0526315789473684,0.025000000000000022,inf
-rich,head of government,0.5,0.95,0.5,1.0,1.0526315789473684,0.025000000000000022,inf
-rich,member of,0.5,0.95,0.5,1.0,1.0526315789473684,0.025000000000000022,inf
-rich,Freebase ID,0.5,0.95,0.5,1.0,1.0526315789473684,0.025000000000000022,inf
-rich,country calling code,0.5,0.95,0.5,1.0,1.0526315789473684,0.025000000000000022,inf
-rich,OpenStreetMap relation ID,0.5,0.95,0.5,1.0,1.0526315789473684,0.025000000000000022,inf
-rich,language used,0.5,0.95,0.5,1.0,1.0526315789473684,0.025000000000000022,inf
-rich,office held by head of government,0.5,0.95,0.5,1.0,1.0526315789473684,0.025000000000000022,inf
-rich,motto text,0.5,0.875,0.45,0.9,1.0285714285714287,0.012500000000000011,1.2500000000000002
-rich,INSEE countries and foreign territories code,0.5,0.925,0.475,0.95,1.027027027027027,0.012499999999999956,1.4999999999999978
-rich,demonym,0.5,0.975,0.5,1.0,1.0256410256410258,0.012500000000000011,inf
+rich,Catalan Vikidia ID,0.5,0.625,0.325,0.65,1.04,0.012500000000000011,1.0714285714285714
 rich,continent,0.5,0.975,0.5,1.0,1.0256410256410258,0.012500000000000011,inf
-rich,Encyclopedia of China (Third Edition) ID,0.5,0.3,0.15,0.3,1.0,0.0,1.0
-rich,capital,0.5,1.0,0.5,1.0,1.0,0.0,inf
+rich,capital,0.5,0.975,0.5,1.0,1.0256410256410258,0.012500000000000011,inf
 rich,official observer status in organisation,0.5,0.05,0.025,0.05,1.0,0.0,1.0
-rich,Catalan Vikidia ID,0.5,0.65,0.325,0.65,1.0,0.0,1.0
-rich,instance of,0.5,1.0,0.5,1.0,1.0,0.0,inf
 rich,ISO 3166-2 code,0.5,0.05,0.025,0.05,1.0,0.0,1.0
-rich,location of formation,0.5,0.05,0.025,0.05,1.0,0.0,1.0
+rich,WorldCat Identities ID (superseded),0.5,0.85,0.425,0.85,1.0,0.0,1.0
 rich,category for the view of the item,0.5,0.05,0.025,0.05,1.0,0.0,1.0
-rich,Treccani's Enciclopedia Italiana ID,0.5,0.25,0.125,0.25,1.0,0.0,1.0
-rich,inception,0.5,1.0,0.5,1.0,1.0,0.0,inf
-rich,Mediapart tag ID,0.5,0.05,0.025,0.05,1.0,0.0,1.0
 rich,founded by,0.5,0.05,0.025,0.05,1.0,0.0,1.0
-rich,WorldCat Identities ID (superseded),0.5,0.875,0.425,0.85,0.9714285714285714,-0.012500000000000011,0.8333333333333333
-rich,Encyclopædia Universalis ID,0.5,0.675,0.325,0.65,0.9629629629629629,-0.012500000000000011,0.9285714285714285
-rich,ILO Thesaurus ID,0.5,0.325,0.15,0.3,0.923076923076923,-0.012500000000000011,0.9642857142857144
-rich,located in/on physical feature,0.5,0.6,0.275,0.55,0.9166666666666667,-0.024999999999999967,0.8888888888888891
+rich,Mediapart tag ID,0.5,0.05,0.025,0.05,1.0,0.0,1.0
+rich,instance of,0.5,1.0,0.5,1.0,1.0,0.0,inf
+rich,Encyclopædia Universalis ID,0.5,0.65,0.325,0.65,1.0,0.0,1.0
+rich,inception,0.5,1.0,0.5,1.0,1.0,0.0,inf
+rich,British Museum person or institution ID,0.5,0.05,0.025,0.05,1.0,0.0,1.0
+rich,Encyclopedia of China (Third Edition) ID,0.5,0.4,0.2,0.4,1.0,0.0,1.0
+rich,Treccani's Enciclopedia Italiana ID,0.5,0.25,0.125,0.25,1.0,0.0,1.0
+rich,location of formation,0.5,0.05,0.025,0.05,1.0,0.0,1.0
+rich,located in/on physical feature,0.5,0.575,0.275,0.55,0.9565217391304349,-0.012499999999999956,0.9444444444444446
 rich,owner of,0.5,0.125,0.05,0.1,0.8,-0.012499999999999997,0.9722222222222222
-rich,British Museum person or institution ID,0.5,0.075,0.025,0.05,0.6666666666666667,-0.012499999999999997,0.9736842105263159
-rich,twinned administrative body,0.5,0.125,0.025,0.05,0.4,-0.0375,0.9210526315789475
+rich,twinned administrative body,0.5,0.1,0.025,0.05,0.5,-0.025,0.9473684210526316
 rich,Ringgold ID,0.5,0.125,0.025,0.05,0.4,-0.0375,0.9210526315789475
 rich,Encyclopedia of Seventh-day Adventists ID,0.5,0.225,0.025,0.05,0.22222222222222224,-0.0875,0.8157894736842106
-rich,GNIS ID,0.5,0.05,0.0,0.0,0.0,0.0,0.95
-rich,replaced by,0.5,0.05,0.0,0.0,0.0,0.0,0.95
-rich,"dissolved, abolished or demolished date",0.5,0.05,0.0,0.0,0.0,0.0,0.95
-rich,Cultureel Woordenboek ID,0.5,0.025,0.0,0.0,0.0,0.0,0.975
-rich,authority,0.5,0.025,0.0,0.0,0.0,0.0,0.975
-rich,Facebook page ID,0.5,0.025,0.0,0.0,0.0,0.0,0.975
 rich,Google Doodle,0.5,0.025,0.0,0.0,0.0,0.0,0.975
-rich,time of discovery or invention,0.5,0.025,0.0,0.0,0.0,0.0,0.975
-rich,Atlas Obscura ID,0.5,0.025,0.0,0.0,0.0,0.0,0.975
+rich,related category,0.5,0.025,0.0,0.0,0.0,0.0,0.975
+rich,"dissolved, abolished or demolished date",0.5,0.075,0.0,0.0,0.0,0.0,0.925
+rich,Facebook page ID,0.5,0.025,0.0,0.0,0.0,0.0,0.975
 rich,Europeana entity,0.5,0.025,0.0,0.0,0.0,0.0,0.975
-rich,Google Knowledge Graph ID,0.5,0.025,0.0,0.0,0.0,0.0,0.975
-rich,FIPS 5-2 alpha code (US states),0.5,0.05,0.0,0.0,0.0,0.0,0.95
+rich,Atlas Obscura ID,0.5,0.025,0.0,0.0,0.0,0.0,0.975
+rich,FIPS 5-2 numeric code (US states),0.5,0.025,0.0,0.0,0.0,0.0,0.975
+rich,authority,0.5,0.025,0.0,0.0,0.0,0.0,0.975
+rich,time of discovery or invention,0.5,0.025,0.0,0.0,0.0,0.0,0.975
+rich,FIPS 5-2 alpha code (US states),0.5,0.025,0.0,0.0,0.0,0.0,0.975
+rich,located in the administrative territorial entity,0.5,0.075,0.0,0.0,0.0,0.0,0.925
+rich,replaced by,0.5,0.05,0.0,0.0,0.0,0.0,0.95
+rich,GNIS ID,0.5,0.025,0.0,0.0,0.0,0.0,0.975
+rich,Cultureel Woordenboek ID,0.5,0.025,0.0,0.0,0.0,0.0,0.975
 rich,Atlante Geopolitico ID,0.5,0.025,0.0,0.0,0.0,0.0,0.975
-rich,FIPS 5-2 numeric code (US states),0.5,0.05,0.0,0.0,0.0,0.0,0.95
-rich,located in the administrative territorial entity,0.5,0.05,0.0,0.0,0.0,0.0,0.95
-rich,related category,0.5,0.05,0.0,0.0,0.0,0.0,0.95
 rich,edition or translation of,0.5,0.025,0.0,0.0,0.0,0.0,0.975
